@@ -26,7 +26,7 @@ if _env.exists():
 ZONE = os.environ.get("ARAG_ZONE", "")
 KB = os.environ.get("ARAG_KB_ID", "")
 KEY = os.environ.get("ARAG_API_KEY", "")
-MODEL = os.environ.get("ARAG_MODEL", "chatgpt-azure-4o-mini")
+MODEL = os.environ.get("ARAG_MODEL", "gemini-3.1-flash-lite")
 KBURL = f"https://{ZONE}.rag.progress.cloud/api/v1/kb/{KB}"
 HJSON = {"x-nuclia-serviceaccount": f"Bearer {KEY}", "content-type": "application/json",
          "accept": "application/json"}
