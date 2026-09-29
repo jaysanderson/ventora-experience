@@ -126,9 +126,9 @@ def topic_of(q):
     return "product"
 
 
-# ------------------------------------------------------------------ ask (streamed, grounded)
-@app.post("/api/ask")
-async def api_ask(req: Request):
+# ------------------------------------------------------------------ answer (streamed, grounded)
+@app.post("/api/answer")
+async def api_answer(req: Request):
     p = await req.json()
     query = (p.get("query") or "").strip()
     if not query:

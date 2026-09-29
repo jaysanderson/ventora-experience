@@ -322,3 +322,44 @@ table.data td { padding: 12px 8px; border-bottom: 1px solid var(--v-mist); verti
 .samples .sample span { display: block; padding: 8px 10px; font-size: 13px; }
 .samples .sample:hover { border-color: var(--v-sage); box-shadow: 0 8px 20px rgba(32,92,64,.12); }
 .samples .sample.upload { display: flex; align-items: center; justify-content: center; min-height: 138px; border-style: dashed; color: var(--v-green); }
+
+/* solution-architecture reveal ("How this works") */
+.arch-btn { display: inline-flex; align-items: center; gap: 6px; background: transparent; border: 1px solid var(--v-line); color: var(--v-muted);
+  font-family: var(--font-head); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 7px 12px; border-radius: 999px;
+  cursor: pointer; transition: border-color .2s, color .2s; flex-shrink: 0; }
+.arch-btn:hover { border-color: var(--v-sage); color: var(--v-green); }
+.arch-btn svg { width: 15px; height: 15px; stroke: currentColor; fill: none; flex-shrink: 0; }
+.arch-btn .lbl { white-space: nowrap; }
+@media (max-width: 620px) { .arch-btn .lbl { display: none; } .arch-btn { padding: 8px; } }
+
+.arch-scrim { position: fixed; inset: 0; background: rgba(23, 71, 47, .6); z-index: 200; opacity: 0; pointer-events: none; transition: opacity .22s var(--ease); }
+.arch-scrim.open { opacity: 1; pointer-events: auto; }
+.arch-modal { position: fixed; z-index: 201; left: 50%; top: 50%; width: min(860px, 94vw); max-height: 88vh; overflow-y: auto;
+  transform: translate(-50%, -50%) scale(.98); opacity: 0; pointer-events: none; background: #fff; border-radius: 10px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, .35); transition: opacity .2s var(--ease), transform .2s var(--ease); }
+.arch-modal.open { opacity: 1; pointer-events: auto; transform: translate(-50%, -50%) scale(1); }
+.arch-modal__head { display: flex; align-items: center; justify-content: space-between; padding: 20px 26px; border-bottom: 1px solid var(--v-line); position: sticky; top: 0; background: #fff; }
+.arch-modal__head h3 { font-size: 19px; }
+.arch-modal__head p { margin: 4px 0 0; font-size: 13px; color: var(--v-muted); max-width: none; }
+.arch-modal__close { background: none; border: 0; cursor: pointer; color: var(--v-muted); padding: 6px; line-height: 0; }
+.arch-modal__close svg { width: 20px; height: 20px; stroke: currentColor; fill: none; }
+.arch-modal__body { padding: 22px 26px 30px; }
+.arch-diagram { width: 100%; height: auto; display: block; margin-bottom: 18px; }
+.arch-node rect { fill: var(--v-sage-tint); stroke: var(--v-sage); stroke-width: 1.4; }
+.arch-node.server rect { fill: var(--v-green); stroke: var(--v-green-deep); }
+.arch-node text { font-family: var(--font-head); font-size: 12.5px; font-weight: 500; fill: var(--v-ink); }
+.arch-node.server text { fill: #fff; }
+.arch-node .sub { font-family: var(--font-body); font-size: 9.5px; font-weight: 400; fill: var(--v-muted); }
+.arch-node.server .sub { fill: rgba(255, 255, 255, .78); }
+.arch-flow { stroke: var(--v-sage); stroke-width: 2; fill: none; stroke-dasharray: 5 6; }
+.arch-modal.open .arch-flow { animation: arch-flow 1s linear infinite; }
+@keyframes arch-flow { to { stroke-dashoffset: -22; } }
+.arch-elabel { font-family: var(--font-body); font-size: 10.5px; fill: var(--v-muted); }
+.arch-steps { list-style: none; margin: 0 0 18px; padding: 0; display: grid; gap: 10px; }
+.arch-steps li { display: flex; gap: 12px; font-size: 14.5px; line-height: 1.5; color: var(--v-ink-2); }
+.arch-steps b { font-family: var(--font-head); color: var(--v-green); min-width: 20px; flex-shrink: 0; }
+.arch-note { background: var(--v-sage-tint); border-radius: 6px; padding: 14px 16px; font-size: 13.5px; color: var(--v-ink-2); margin: 0; }
+@media (max-width: 620px) {
+  .arch-modal { width: 100vw; height: 100dvh; max-height: none; border-radius: 0; top: 0; left: 0; transform: none; }
+  .arch-modal.open { transform: none; }
+}

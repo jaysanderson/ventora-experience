@@ -38,7 +38,9 @@
       <header class="site-header"><div class="wrap">
         <a class="logo" href="/" aria-label="Ventora"><img src="/static/brand/ventora-green.png" alt="Ventora" width="130" height="30"></a>
         <nav id="mainnav">${nav}</nav>
-        <div class="actions"><button class="btn primary sm" data-open-concierge>Concierge</button>
+        <div class="actions">
+          <button class="arch-btn" type="button" data-open-arch aria-haspopup="dialog"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 16v-5M12 8h.01"/></svg><span class="lbl">How this works</span></button>
+          <button class="btn primary sm" data-open-concierge>Concierge</button>
           <button class="burger" aria-label="Menu" onclick="document.getElementById('mainnav').classList.toggle('open')"><span></span><span></span><span></span></button></div>
       </div></header>`);
     const brandLinks = ORDER.map(s => `<li><a href="/brands/${s}">${esc(labelOf(s))}</a></li>`).join("");
@@ -58,7 +60,9 @@
     document.addEventListener("click", e => {
       const b = e.target.closest("[data-open-concierge]");
       if (b) { e.preventDefault(); Concierge.open({ mode: b.dataset.mode, brand: b.dataset.brand, text: b.dataset.text, goal: b.dataset.goal }); }
+      if (e.target.closest("[data-open-arch]")) { e.preventDefault(); ArchReveal.open(); }
     });
+    ArchReveal.mount();
     // reveal on scroll
     const io = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } }), { rootMargin: "0px 0px 12% 0px" });
     document.querySelectorAll(".reveal-up").forEach((el, i) => { el.style.transitionDelay = `${(i % 6) * 60}ms`; io.observe(el); });
@@ -68,9 +72,66 @@
     if (c) setTimeout(() => Concierge.open({ goal: c === "quote" ? "quote" : c === "photo" ? "photo" : null, text: u.searchParams.get("text"), brand: u.searchParams.get("brand"), mode: u.searchParams.get("mode") }), 250);
   }
 
+  /* ---------- solution-architecture reveal ("How this works") ----------
+     What this modal shows is exactly what this app's own code does - see app.py
+     (/api/answer, /api/remi) and kb.py. Nothing here is a marketing diagram. */
+  const ArchReveal = (() => {
+    let mounted = false;
+    const DIAGRAM = `
+      <svg class="arch-diagram" viewBox="0 0 820 300" role="img" aria-label="Request flow diagram">
+        <defs><marker id="arch-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8DA99C"/></marker></defs>
+        <g class="arch-node"><rect x="20" y="50" width="170" height="64" rx="6"/><text x="105" y="78" text-anchor="middle">Your browser</text><text class="sub" x="105" y="95" text-anchor="middle">Concierge / Specify page</text></g>
+        <g class="arch-node server"><rect x="325" y="40" width="190" height="84" rx="6"/><text x="420" y="72" text-anchor="middle">Ventora's own server</text><text class="sub" x="420" y="89" text-anchor="middle">Holds the retrieval credential -</text><text class="sub" x="420" y="101" text-anchor="middle">never sent to the browser</text></g>
+        <g class="arch-node"><rect x="650" y="50" width="150" height="64" rx="6"/><text x="725" y="78" text-anchor="middle">Knowledge store</text><text class="sub" x="725" y="95" text-anchor="middle">Ventora's published content</text></g>
+        <path class="arch-flow" d="M190,66 H325" marker-end="url(#arch-arrow)"/>
+        <text class="arch-elabel" x="257" y="58" text-anchor="middle">your question</text>
+        <path class="arch-flow" d="M325,100 H190" marker-end="url(#arch-arrow)"/>
+        <text class="arch-elabel" x="257" y="120" text-anchor="middle">streamed answer + real citations</text>
+        <path class="arch-flow" d="M515,66 H650" marker-end="url(#arch-arrow)"/>
+        <text class="arch-elabel" x="582" y="58" text-anchor="middle">grounded answer call</text>
+        <path class="arch-flow" d="M650,100 H515" marker-end="url(#arch-arrow)"/>
+        <text class="arch-elabel" x="582" y="120" text-anchor="middle">retrieved passages + generated text</text>
+        <g class="arch-node"><rect x="325" y="210" width="190" height="60" rx="6"/><text x="420" y="238" text-anchor="middle">Trust check</text><text class="sub" x="420" y="255" text-anchor="middle">Independent quality score</text></g>
+        <path class="arch-flow" d="M390,124 V210" marker-end="url(#arch-arrow)"/>
+        <text class="arch-elabel" x="330" y="168" text-anchor="middle">question, answer</text>
+        <text class="arch-elabel" x="330" y="180" text-anchor="middle">+ passages</text>
+        <path class="arch-flow" d="M450,210 V124" marker-end="url(#arch-arrow)"/>
+        <text class="arch-elabel" x="505" y="168" text-anchor="middle">groundedness /</text>
+        <text class="arch-elabel" x="505" y="180" text-anchor="middle">relevance score</text>
+      </svg>`;
+    const HTML = `
+      <div class="arch-scrim" data-arch-close></div>
+      <div class="arch-modal" role="dialog" aria-modal="true" aria-label="How this works">
+        <div class="arch-modal__head">
+          <div><h3>How this works</h3><p>The real request and data flow behind every Ventora concierge answer</p></div>
+          <button class="arch-modal__close" type="button" data-arch-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+        </div>
+        <div class="arch-modal__body">
+          ${DIAGRAM}
+          <ol class="arch-steps">
+            <li><b>1</b>You type a question into the concierge or the Specify page. It goes straight to Ventora's own server - never to any outside service.</li>
+            <li><b>2</b>That server makes a grounded answer call to Ventora's knowledge store, scoped to the brand and document types you're asking about. This is a single call that retrieves the actual passages AND writes the answer from them.</li>
+            <li><b>3</b>The prose streams back to your screen as it's generated. The product cards, follow-up buttons and the citation list underneath are all built from the real passages that call returned - never invented, and never a separate step.</li>
+            <li><b>4</b>A second, independent call sends the same question, the answer and the retrieved passages to a trust-scoring service, which grades how well the answer is actually supported by them. That's the confidence meter you see under an answer.</li>
+          </ol>
+          <p class="arch-note">If the trust check can't be scored for any reason, the confidence meter is hidden rather than shown with a guess - nothing on this page is ever faked or pre-written. Every citation you see links to the real source document.</p>
+        </div>
+      </div>`;
+    function mount() {
+      if (mounted) return;
+      document.body.insertAdjacentHTML("beforeend", HTML);
+      mounted = true;
+      document.addEventListener("click", e => { if (e.target.closest("[data-arch-close]")) close(); });
+      document.addEventListener("keydown", e => { if (e.key === "Escape") close(); });
+    }
+    function open() { const s = $(".arch-scrim"), m = $(".arch-modal"); if (!s || !m) return; s.classList.add("open"); m.classList.add("open"); document.body.style.overflow = "hidden"; }
+    function close() { const s = $(".arch-scrim"), m = $(".arch-modal"); if (!s || !m) return; s.classList.remove("open"); m.classList.remove("open"); document.body.style.overflow = ""; }
+    return { mount, open, close };
+  })();
+
   /* ---------- streaming ask ---------- */
   async function ask(params, handlers) {
-    const res = await fetch("/api/ask", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(params) });
+    const res = await fetch("/api/answer", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(params) });
     if (!res.ok || !res.body) { handlers.onError && handlers.onError(); return null; }
     const reader = res.body.getReader(); const dec = new TextDecoder();
     let buf = "", full = "", payload = null;
