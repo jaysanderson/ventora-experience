@@ -5,13 +5,28 @@ Ventora's group digital front door with a concierge in it. Presents as Ventora's
 cards, action buttons and a quote flow underneath. The retrieval service key lives
 server-side only; the browser talks to this app's `/api/*` routes.
 
+Live: https://ventora-experience.fly.dev
+Repo: https://github.com/jaysanderson/ventora-experience (private)
+
 ## Run
 
     cd apps/ventora-experience
-    ../../.venv/bin/python -m uvicorn app:app --port 8091
+    python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+    cp .env.example .env   # fill in the real values below
+    .venv/bin/python -m uvicorn app:app --port 8091
 
-Open http://127.0.0.1:8091. Config in `.env` (see `.env.example`): the Sydney-zone
-knowledge service key and id, and optionally `ARAG_MODEL`.
+Open http://127.0.0.1:8091.
+
+## Environment variables (`.env`, never committed - see `.env.example`)
+
+| Variable | What it is |
+|---|---|
+| `ARAG_ZONE` | The Nuclia/ARAG zone this app's Knowledge Box lives in (Sydney: `aws-ap-southeast-2-1`). |
+| `ARAG_KB_ID` | The Knowledge Box id. |
+| `ARAG_API_KEY` | The KB's own service-account token (`X-NUCLIA-SERVICEACCOUNT`) - never the account-level NUA key. |
+
+Optional: `ARAG_MODEL` to pin a specific generative model (falls back to the KB's own
+configured model when unset).
 
 ## Pages
 
