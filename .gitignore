@@ -3,3 +3,4 @@
 __pycache__/
 data/experience.db
 data/ingest.log
+dist/
