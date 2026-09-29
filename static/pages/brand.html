@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ventora brand</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Pontano+Sans&display=swap">
+<link rel="stylesheet" href="/static/ventora.css">
+<link rel="icon" href="/static/brand/ventora.png">
+<script>window.CONFIG = __CONFIG__;</script>
+<script src="/static/i18n.js"></script>
+<script src="/static/site.js" defer></script>
+</head>
+<body>
+<main>
+  <section class="hero brand" style="padding:0">
+    <div class="bg" id="hero-bg"></div>
+    <div class="wrap">
+      <div class="brand-bar"><img id="mark" alt=""><div class="eyebrow on-dark">A Ventora brand</div></div>
+      <h1 id="strapline" style="margin-top:22px"></h1>
+      <p class="lead" id="what"></p>
+      <div class="pill-row"><button class="btn white" data-open-concierge id="ask-btn"></button><a class="btn secondary" id="site" target="_blank" rel="noopener" style="color:#fff;border-color:rgba(255,255,255,.6)"></a></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal-up"><div><div class="eyebrow">Product families</div><h2 id="fam-title"></h2></div></div>
+      <div class="family-list" id="families"></div>
+    </div>
+  </section>
+
+  <section class="mist">
+    <div class="wrap split">
+      <div class="reveal-up">
+        <div class="eyebrow" id="ask-eyebrow"></div>
+        <h2 style="margin:12px 0 18px" id="ask-title"></h2>
+        <p class="lead">Warranty, installation, care and product questions answered from this brand's own published material, with the pages and documents linked. Questions about another brand are handed to Ask Ventora.</p>
+        <div class="pill-row" style="margin-top:8px" id="ask-chips"></div>
+      </div>
+      <div class="photo reveal-up"><img id="ask-photo" alt="" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal-up"><div><div class="eyebrow">Resources</div><h2>Warranty, care and installation.</h2></div></div>
+      <div class="doc-grid" id="resources"></div>
+    </div>
+  </section>
+</main>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const slug = V.CFG.slug, b = V.BR[slug];
+  document.title = `${b.label} - Ventora`;
+  document.getElementById("hero-bg").style.backgroundImage = `url('${b.hero}')`;
+  const mark = document.getElementById("mark"); mark.src = b.mark; mark.alt = b.label;
+  document.getElementById("strapline").textContent = b.strapline + ".";
+  document.getElementById("what").textContent = b.what + ".";
+  const first = b.label.split(" ")[0];
+  document.getElementById("ask-btn").textContent = `Ask ${first}`; document.getElementById("ask-btn").dataset.brand = slug;
+  const site = document.getElementById("site"); site.href = b.site; site.textContent = b.site.replace(/^https?:\/\/(www\.)?/, "");
+  document.getElementById("fam-title").textContent = `What ${first} makes.`;
+  document.getElementById("families").innerHTML = (b.families || []).map(f => `
+    <div class="card reveal-up"><div class="photo"><img src="${f.photo}" alt="${V.esc(f.family)}, ${V.esc(b.label)}" loading="lazy"></div>
+      <div class="body"><h3>${V.esc(f.family)}</h3><p>${V.esc(f.desc)}</p>
+        <div style="display:flex;gap:18px;margin-top:auto;padding-top:10px"><a class="tertiary" href="${V.esc(f.url)}" target="_blank" rel="noopener">View product</a><a class="tertiary" href="#" data-open-concierge data-brand="${slug}" data-text="Tell me about ${V.esc(f.family)}">Ask about this</a></div></div></div>`).join("");
+  document.getElementById("ask-eyebrow").textContent = `${b.label} concierge`;
+  document.getElementById("ask-title").textContent = `Ask ${first} anything about its range.`;
+  document.getElementById("ask-photo").src = ((b.families[1] || b.families[0]) || {}).photo || b.hero;
+  const chips = { breezway: ["What does the Altair louvre warranty cover and for how long?", "Which Altair louvres have BAL-40 test reports?", "How do I install an Altair louvre in a 250 mm brick veneer wall?"],
+    stegbar: ["How do I look after Alumiere aluminium frames on the coast?", "What does the Stegbar warranty cover on shower screens?", "Which sliding doors suit a large opening?"],
+    "al-windows": ["What is the A&L warranty on aluminium windows?", "How do I order spare parts for a sliding door?", "What is ComfortSmart double glazing?"],
+    trend: ["What is the warranty on Trend windows?", "How do I care for timber Botanica frames?", "Which Trend series is thermally broken?"],
+    corinthian: ["How do I work out door handing?", "How should I install and finish a timber entrance door?", "What does the Corinthian warranty cover?"],
+    aneeta: ["What is a sashless window and how does it open?", "What are the fall-prevention options?", "What does the Aneeta warranty cover?"],
+    regency: ["How do I clean a frameless shower screen?", "What does the Regency warranty cover?", "What wardrobe door styles are available?"],
+    "ventora-glass": ["What double-glazed glass options improve energy efficiency?", "What is toughened laminated glass used for?", "What is the warranty on processed glass?"] }[slug] || [];
+  document.getElementById("ask-chips").innerHTML = chips.map(c => `<button class="btn chip" data-open-concierge data-brand="${slug}" data-text="${V.esc(c)}">${V.esc(c)}</button>`).join("");
+  const L = b.links;
+  const res = [["Warranty", "Terms and periods for this brand's products", L.warranty], ["Care and maintenance", "Cleaning, lubrication and seasonal care", L.care], ["Spare parts and support", "Order parts or get help with what you have", L.parts]];
+  document.getElementById("resources").innerHTML = res.map(([t, d, u]) => `<a class="doc reveal-up" href="${u}" target="_blank" rel="noopener"><div class="ic">WEB</div><div><b>${t}</b><small>${d}</small><img class="mark" src="${b.mark}" alt=""></div></a>`).join("");
+});
+</script>
+</body>
+</html>

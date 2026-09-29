@@ -1,0 +1,19 @@
+# Ventora Connected Experience (demo). Deploy on GM instruction only.
+app = "ventora-experience"
+primary_region = "syd"
+
+[build]
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 1
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"
+
+# secrets to set before deploy (never in this file):
+#   fly secrets set ARAG_ZONE=... ARAG_KB_ID=... ARAG_API_KEY=... -a ventora-experience

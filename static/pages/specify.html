@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Specify with confidence - Ventora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Pontano+Sans&display=swap">
+<link rel="stylesheet" href="/static/ventora.css">
+<link rel="icon" href="/static/brand/ventora.png">
+<script>window.CONFIG = __CONFIG__;</script>
+<script src="/static/i18n.js"></script>
+<script src="/static/site.js" defer></script>
+<style>
+  .spec-hero { background: var(--v-mist); padding: 72px 0 56px; }
+  .spec-hero h1 { font-size: 44px; max-width: 16ch; margin: 12px 0 14px; }
+  .work { display: grid; grid-template-columns: 1fr 340px; gap: 56px; align-items: start; }
+  .aside { position: sticky; top: 96px; }
+  .aside .panel { padding: 22px; }
+  .answer-area { min-height: 240px; }
+  @media (max-width: 1000px) { .work { grid-template-columns: 1fr; } .aside { position: static; } }
+</style>
+</head>
+<body>
+<main>
+  <section class="spec-hero">
+    <div class="wrap">
+      <div class="eyebrow">For architects, estimators and certifiers</div>
+      <h1>Specify with confidence.</h1>
+      <p class="lead">Ask one question and get an answer drawn from test reports, design manuals, rating tables and installation details across all eight Ventora brands. Every document is a click away.</p>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap work">
+      <div>
+        <form class="ask-field" id="ask" onsubmit="return false">
+          <input id="q" type="text" placeholder="e.g. Coastal NSW, BAL-29, 7-star target: which louvres and sliding doors qualify?" autocomplete="off">
+          <button class="btn primary sm" type="submit">Ask</button>
+        </form>
+        <div style="margin:18px 0 8px" class="mark-row" id="brand-toggles"></div>
+        <div class="text-toggles" id="doc-toggles" style="margin:8px 0 28px">
+          <button data-d="compliance">Test reports</button><button data-d="energy">Energy ratings</button><button data-d="installation">Installation</button><button data-d="care">Care</button><button data-d="warranty">Warranty</button><button data-d="technical">Technical</button>
+        </div>
+        <div class="pill-row" id="suggest" style="margin-bottom:36px"></div>
+        <div class="article answer-area" id="article">
+          <div class="skeleton" style="height:22px;width:60%;margin-bottom:14px"></div>
+          <div class="skeleton" style="height:14px;margin-bottom:8px"></div><div class="skeleton" style="height:14px;width:92%;margin-bottom:8px"></div><div class="skeleton" style="height:14px;width:70%"></div>
+        </div>
+        <div id="docs" style="margin-top:36px"></div>
+        <div id="specialist" style="margin-top:36px"></div>
+      </div>
+      <aside class="aside">
+        <div class="panel">
+          <h3>How this works</h3>
+          <p class="small" style="margin-bottom:14px">Every statement is drawn from the documents listed under the answer. Final compliance is confirmed by your certifier or energy assessor.</p>
+          <div class="meter" id="meter" hidden><span>Answer confidence</span><div class="bar"><i></i></div><b id="meter-v"></b></div>
+        </div>
+        <div class="panel" style="margin-top:16px">
+          <h3>Design Assist</h3>
+          <p class="small">Breezway's Design Assist team and each brand's specification desk can review drawings, sizes and site conditions.</p>
+          <button class="btn secondary sm" data-open-concierge data-mode="specifying" data-text="I'd like to book Design Assist to review my project.">Book a specialist</button>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const sel = { brands: new Set(), docs: new Set() };
+  document.getElementById("brand-toggles").innerHTML = V.ORDER.map(s => `<button type="button" class="mark-toggle" data-b="${s}"><img src="${V.BR[s].mark}" alt=""><span>${V.esc(V.BR[s].label)}</span></button>`).join("");
+  document.querySelectorAll("[data-b]").forEach(b => b.onclick = () => { b.classList.toggle("on"); sel.brands.has(b.dataset.b) ? sel.brands.delete(b.dataset.b) : sel.brands.add(b.dataset.b); });
+  document.querySelectorAll("[data-d]").forEach(b => b.onclick = () => { b.classList.toggle("on"); sel.docs.has(b.dataset.d) ? sel.docs.delete(b.dataset.d) : sel.docs.add(b.dataset.d); });
+  const SUG = ["Which louvre products have BAL-29 and BAL-40 test reports, and what do the reports cover?", "What WERS ratings and U-values are published for louvre windows with different glass types?",
+    "What does the fall prevention decision tree require for openable windows in bedrooms above ground level?", "What acoustic performance is documented and which configurations achieve it?",
+    "What are the building-in details for a louvre window in a 250 mm brick veneer wall?", "Which Australian Standards are referenced for window performance testing and bushfire construction?"];
+  document.getElementById("suggest").innerHTML = SUG.map(s => `<button class="btn chip" data-s="${V.esc(s)}">${V.esc(s)}</button>`).join("");
+  document.querySelectorAll("[data-s]").forEach(b => b.onclick = () => run(b.dataset.s));
+  document.getElementById("ask").addEventListener("submit", () => run(document.getElementById("q").value));
+
+  async function run(q) {
+    q = (q || "").trim(); if (!q) return;
+    document.getElementById("q").value = q;
+    const art = document.getElementById("article"), docs = document.getElementById("docs"), spec = document.getElementById("specialist"), meter = document.getElementById("meter");
+    art.innerHTML = `<h3>${V.esc(q)}</h3><div class="prose"><div class="typing"><i></i><i></i><i></i></div></div>`; docs.innerHTML = ""; spec.innerHTML = ""; meter.hidden = true;
+    const prose = art.querySelector(".prose");
+    const params = { query: q, mode: "specify", brands: [...sel.brands], doctypes: [...sel.docs], route: "/specify", audience: "specifier" };
+    await V.ask(params, {
+      onAnswer: full => { prose.innerHTML = V.md(full); },
+      onError: () => { prose.innerHTML = `<div class="notice">That isn't covered in the published material yet. A specialist can help directly.</div>`; },
+      onDone: async p => {
+        if (p.status === "no_context") { prose.innerHTML = `<div class="notice">That isn't covered in Ventora's published material yet. A specialist can help directly.</div>`; spec.innerHTML = V.actionButtons(p.actions); return; }
+        if (p.sources && p.sources.length) {
+          docs.innerHTML = `<div class="eyebrow" style="margin-bottom:14px">Resources</div><div class="doc-grid">` + p.sources.map(s => `
+            <a class="doc" href="${V.esc(s.url)}" target="_blank" rel="noopener"><div class="ic ${s.kind === "pdf" ? "pdf" : ""}">${s.kind === "pdf" ? "PDF" : "WEB"}</div>
+              <div><b>${V.esc(s.title)}</b><small>${V.esc(s.doctype)}${s.issued ? " · issued " + V.esc(s.issued) : ""}</small><img class="mark" src="/static/brand/${V.esc(s.slug === "ventora" ? "ventora" : s.slug)}.png" alt="${V.esc(s.brand)}"><span class="tertiary">${s.kind === "pdf" ? "Download" : "Open page"}</span></div></a>`).join("") + `</div>`;
+        }
+        spec.innerHTML = `<div class="eyebrow" style="margin-bottom:12px">Next step</div>` + V.actionButtons(p.actions) + V.followupChips(p.followups);
+        spec.querySelectorAll("[data-followup]").forEach(b => b.onclick = () => run(b.dataset.followup));
+        spec.querySelectorAll("[data-flow]").forEach(b => b.onclick = () => V.Concierge.open({ mode: "specifying", goal: b.dataset.flow === "#quote" ? "quote" : null, text: b.dataset.flow === "#design-assist" ? "I'd like to book Design Assist for this project." : "I'd like a quote for this." }));
+        const r = await V.remi({ query: q, answer: p.answer, brands: [...sel.brands], doctypes: [...sel.docs], interaction_id: p.interaction_id });
+        if (r && r.available && r.groundedness != null) { meter.hidden = false; meter.querySelector("i").style.width = (r.groundedness / 5 * 100) + "%"; document.getElementById("meter-v").textContent = (Math.round(r.groundedness * 10) / 10).toFixed(1) + " / 5"; }
+      }
+    });
+  }
+  run(SUG[0]);
+});
+</script>
+</body>
+</html>

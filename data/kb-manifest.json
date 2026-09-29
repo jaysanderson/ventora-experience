@@ -1,0 +1,4188 @@
+{
+ "ea72ce346060": {
+  "rid": "3161610f8eea42488e479578b4f56b77",
+  "url": "https://www.ventora.com.au/s/ventora-warranty-march-24.pdf",
+  "brand": "ventora",
+  "doctype": "warranty",
+  "kind": "file"
+ },
+ "f93c4a3a21f1": {
+  "rid": "SKIP",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_VENTORA_Warranty_March_2024.pdf",
+  "brand": "breezway",
+  "doctype": "warranty",
+  "kind": "file"
+ },
+ "2f2ef3fb9953": {
+  "rid": null,
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/ventora-warranty---march-24.pdf?v=1767184559",
+  "brand": "stegbar",
+  "doctype": "warranty",
+  "kind": "file"
+ },
+ "4bfee879e2fa": {
+  "rid": "DUP",
+  "url": "https://cdn.alwindows.com.au/wp-content/uploads/2024/02/VENTORA-Warranty-March-24.pdf",
+  "brand": "alwindows",
+  "doctype": "warranty",
+  "kind": "file"
+ },
+ "0ac062604507": {
+  "rid": "b48c79c6f8ee46939a47a98d41415556",
+  "url": "https://cdn.alwindows.com.au/wp-content/uploads/pdfs/A-L-Windows-SA-Warranty-05-04-2012.pdf",
+  "brand": "alwindows",
+  "doctype": "warranty",
+  "kind": "file"
+ },
+ "e18b3aed3fc6": {
+  "rid": "DUP",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/ventora-warranty---march-24.pdf?v=1767704442",
+  "brand": "trend",
+  "doctype": "warranty",
+  "kind": "file"
+ },
+ "7f8347a2fcce": {
+  "rid": "DUP",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/07/15071225/VENTORA-Warranty-March-24.pdf",
+  "brand": "corinthian",
+  "doctype": "warranty",
+  "kind": "file"
+ },
+ "c65955c397ca": {
+  "rid": "DUP",
+  "url": "https://aneetawindows.com.au/download/VENTORA_Warranty_March24.pdf",
+  "brand": "aneeta",
+  "doctype": "warranty",
+  "kind": "file"
+ },
+ "a733c5d52b35": {
+  "rid": "DUP",
+  "url": "https://cdn.shopify.com/s/files/1/0958/7274/5843/files/ventora-warranty---march-24.pdf?v=1767344066",
+  "brand": "regency",
+  "doctype": "warranty",
+  "kind": "file"
+ },
+ "d7e2f5bd9f04": {
+  "rid": "DUP",
+  "url": "https://ventoraglass.com.au/cdn/shop/files/ventora-warranty---march-24.pdf?v=14918225023863020613",
+  "brand": "ventoraglass",
+  "doctype": "warranty",
+  "kind": "file"
+ },
+ "42d868599ea2": {
+  "rid": "DUP",
+  "url": "https://cdn.shopify.com/s/files/1/0958/7635/0262/files/ventora-warranty---march-24.pdf?v=1767832667",
+  "brand": "ventoraglass",
+  "doctype": "warranty",
+  "kind": "file"
+ },
+ "b90059837f07": {
+  "rid": "07ea8c855c9740c7b02e72ed8b6afb83",
+  "url": "https://www.ventora.com.au/warranty",
+  "brand": "ventora",
+  "doctype": "warranty",
+  "kind": "link"
+ },
+ "d12c252c2c0b": {
+  "rid": "11efca9522fb4c8cb42b199b1f7bc9b4",
+  "url": "https://www.breezway.com.au/technical/care-maintenance-warranty/",
+  "brand": "breezway",
+  "doctype": "warranty",
+  "kind": "link"
+ },
+ "1d5eb18160b0": {
+  "rid": "660935ef1926456baaa08325fd76be6b",
+  "url": "https://www.stegbar.com.au/pages/warranty",
+  "brand": "stegbar",
+  "doctype": "warranty",
+  "kind": "link"
+ },
+ "245bee02020e": {
+  "rid": "5333280462ba46108d6366090142014c",
+  "url": "https://www.alwindows.com.au/about-us/warranty/",
+  "brand": "alwindows",
+  "doctype": "warranty",
+  "kind": "link"
+ },
+ "168fa526ea24": {
+  "rid": "e73928137b924fdbbf08e2c139604921",
+  "url": "https://www.trendwindows.com.au/pages/warranty",
+  "brand": "trend",
+  "doctype": "warranty",
+  "kind": "link"
+ },
+ "b8c8e0903c48": {
+  "rid": "2a4772614e254c13ba883a9452c27afb",
+  "url": "https://www.corinthian.com.au/warranty/",
+  "brand": "corinthian",
+  "doctype": "warranty",
+  "kind": "link"
+ },
+ "5451086fc012": {
+  "rid": "538954831fa646cabacbc9ca5c052094",
+  "url": "https://aneetawindows.com.au/technical/warranty/",
+  "brand": "aneeta",
+  "doctype": "warranty",
+  "kind": "link"
+ },
+ "d8425104040f": {
+  "rid": "66499c9f18c14f2b876e88a9f1b1d79c",
+  "url": "https://www.regencyscreens.com.au/pages/warranty-claim",
+  "brand": "regency",
+  "doctype": "warranty",
+  "kind": "link"
+ },
+ "74d1fe90b4f4": {
+  "rid": "9a0b398464d546268cddc24a52cc9190",
+  "url": "https://www.regencyscreens.com.au/pages/warranty",
+  "brand": "regency",
+  "doctype": "warranty",
+  "kind": "link"
+ },
+ "e6583f2d46c2": {
+  "rid": "c5bc50822af44c6399c97719dfb15869",
+  "url": "https://ventoraglass.com.au/pages/warranty",
+  "brand": "ventoraglass",
+  "doctype": "warranty",
+  "kind": "link"
+ },
+ "fcb7db184a60": {
+  "rid": "136bec68dc1b44b0871955a63fb3ac5c",
+  "url": "https://www.breezway.com.au/downloads/australia/AGWA_Fall_Prevention.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "0b7109937dbe": {
+  "rid": "56e36138f4d94f0883c7ef378eb61bdc",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_Fall_Prevention_Decision_Tree.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "003f7bc081aa": {
+  "rid": "28301347a8f74d9abace19265e132b04",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_Guide_Altair_Climate_Zones_45.pdf",
+  "brand": "breezway",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "b1589bd7f7b3": {
+  "rid": "aec8f2c9aaaf4c108361cc08be2f6e61",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_LFL_WERS_ratings.pdf",
+  "brand": "breezway",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "01c100f97221": {
+  "rid": "SKIP",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_Guide_Altair_Climate_Zones_123.pdf",
+  "brand": "breezway",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "f46ca856990a": {
+  "rid": "696fd27500584cfd81364bda0ed03063",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_obscure_glass_WERS.pdf",
+  "brand": "breezway",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "397839403fe6": {
+  "rid": "0d37b8e1a2f7421f900f970cf6609ecb",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_Exposed_Water_AS2047_2014.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "9c673dc0f374": {
+  "rid": "0f3691f296804cefabd013c72f9fba5d",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_double_glazing_myths.pdf",
+  "brand": "breezway",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "bcf338e75abd": {
+  "rid": "683d6a95c2dc43bca7ff110f4233b47a",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_Aluminium_Blade_Energy_Rating.pdf",
+  "brand": "breezway",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "0cc7eca9fe15": {
+  "rid": "87eaa62eb8484a93bc96eadd812284d5",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_Guide_Altair_Climate_Zones_678.pdf",
+  "brand": "breezway",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "29b45722cea1": {
+  "rid": "6d31e43ca21146b1bd032a744b1cde48",
+  "url": "https://www.breezway.com.au/downloads/australia/Cyclone_Yasi_Testimonial7_Ashlee_Jones.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "f73c56edd8d0": {
+  "rid": "52a0d5c5c5244ae788f2ca593106f215",
+  "url": "https://www.breezway.com.au/downloads/australia/Cyclone_Yasi_Testimonial9_Loyd_Durham.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "7b2b4b7c7583": {
+  "rid": "625694b791464371966d5f66aa45af9c",
+  "url": "https://www.breezway.com.au/downloads/australia/Cyclone_Yasi_Testimonial5_Preston_Clothier.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "3fec6b74f28c": {
+  "rid": "e5ec55f7b7574323854fff443d726663",
+  "url": "https://www.breezway.com.au/downloads/australia/Cyclone_Yasi_Testimonial11_Neville_Brow.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "029e0207c045": {
+  "rid": "da1deb62358a47bfbe5851cca76cebb5",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_BAL40_Test_Report.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "c4a3bf5a7d6d": {
+  "rid": "984123e7806b4c238aa2a0dfe813888d",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_BAL29_Test_Report.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "38557db30830": {
+  "rid": "70aafabc1b4c459d9e35d71660440f60",
+  "url": "https://www.breezway.com.au/downloads/australia/Cyclone_Yasi_Testimonial8_Ingham_Community_Centre.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "c00754411090": {
+  "rid": "8f202c6b1c08458194fe962f1db24fd1",
+  "url": "https://www.breezway.com.au/downloads/australia/Cyclone_Yasi_Testimonial1_Damien_Ferguson.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "06184f85fca9": {
+  "rid": "23ae4b3f2ab945f1a1e55a14234ca16b",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/77801_cm-showerscreens-splashbacks--mirrors-stegbar.pdf?v=1767162649",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "42120889a455": {
+  "rid": "DUP",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/care-and-maintenance-showerscreens-splashbacks--mirrors-stegbar_62d74fd1-3f91-4362-9525-a787255954f1.pdf?v=11790117138362849194",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "cc8cbfa80f87": {
+  "rid": "b0c312f1b5294911a7a98d107aeadef2",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/8306_standard-size-and-range-catalogue_2efedf86-2764-4b27-a1d0-9bbde93979b8.pdf?v=6441413995835422981",
+  "brand": "stegbar",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "7ad8dd787ad1": {
+  "rid": "28b0c431ed9940d98dc9b2476e4430a7",
+  "url": "https://www.breezway.com.au/downloads/australia/Cyclone_Yasi_Testimonial2_David_Skinner.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "39c25e772c05": {
+  "rid": "4b7c078e07ef45d3a991154eeb12fbfd",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/Glazing_Catalogue.pdf?v=6729651384795856952",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "c195d855bce4": {
+  "rid": "DUP",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/77801_Care_and_Maintenance_Showerscreens_Splashbacks_Mirrors_Stegbar.pdf.pdf?v=1769760200",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "4bd31b39a820": {
+  "rid": "be38bb233bb74b65adad5cccfbb1aa1b",
+  "url": "https://cdn.alwindows.com.au/wp-content/uploads/2026/03/Achieving-7-Stars-Heating-Climate-ALVIC0636-0725-V8.0-Digital-Version.pdf",
+  "brand": "alwindows",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "ebb9f268edb0": {
+  "rid": "86f54f2dd99d45b784ddca3552aa4703",
+  "url": "https://cdn.alwindows.com.au/wp-content/uploads/2025/04/Achieving-7-Stars-Cooling-Climate-ALQLD0642-0226-V8.0-Digital-Version.pdf",
+  "brand": "alwindows",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "bb4e4784ac4d": {
+  "rid": "17e7b053ba4b4a5590a65f776f997d21",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2025/07/16101558/Balmoral_Collection-Brochure_Digital_V4.0.pdf",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "ddb81d4d6b88": {
+  "rid": "dd978ec5c7f7471698363f8eeeb9efc6",
+  "url": "https://www.breezway.com.au/downloads/australia/Cyclone_Yasi_Testimonial3_Ron_Taylor.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "fe72e55f92b5": {
+  "rid": "0cdf6d36f97c4a35a7a05859fddb325c",
+  "url": "https://aneetawindows.com.au/download/brochures/WERS_2020.pdf",
+  "brand": "aneeta",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "526631f71080": {
+  "rid": "6aefa2ad20d9476d89d86b02b51b5846",
+  "url": "https://cdn.shopify.com/s/files/1/0958/7274/5843/files/cm-showerscreen-splashback--mirrors-regency.pdf?v=1767344191",
+  "brand": "regency",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "aa515a0546b9": {
+  "rid": "c8961bcf4e2d437094a4f06d0efb1903",
+  "url": "https://ventoraglass.com.au/cdn/shop/files/VENTORA_Glass_Performance_Data-_Single_Double_Glazing_V1.1.pdf?v=17264993441386057114",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "e92af8c2dffa": {
+  "rid": "DUP",
+  "url": "https://ventoraglass.com.au/cdn/shop/files/VENTORA_Glass_Performance_Data-_Single_Double_Glazing_V1.4_0d936c5a-8820-4756-a24c-47840c055a81.pdf?v=369056993353480490",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "36490bdb6854": {
+  "rid": "285e8199ae4f4477b6835a6f7ca74aee",
+  "url": "https://ventoraglass.com.au/cdn/shop/files/AGWA_Compliance_Guide_V1_FINAL.pdf?v=16650644874237646018",
+  "brand": "ventoraglass",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "8e2f0d07fec7": {
+  "rid": "DUP",
+  "url": "https://ventoraglass.com.au/cdn/shop/files/VENTORA_Glass_Performance_Data-_Single_Double_Glazing_V1.4_0d936c5a-8820-4756-a24c-47840c055a81.pdf?v=1782360182",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "4197a0c1595b": {
+  "rid": "94f324467aad47d288fc6a5e9abcd751",
+  "url": "https://www.ventora.com.au/showers-mirrors",
+  "brand": "ventora",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "a44faeb23cba": {
+  "rid": "8464affb2f624edb9fc13b0223b9f8ae",
+  "url": "https://www.breezway.com.au/window-replacement-in-apartments-for-fall-prevention/",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "8967b7ed29f4": {
+  "rid": "56f4e4c02eeb4c42a8d2275d9817404d",
+  "url": "https://www.breezway.com.au/the-energy-efficiency-benefits-of-woven-mesh-screens-on-altair-louvre-windows/",
+  "brand": "breezway",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "ce9bc78a402f": {
+  "rid": "ab05f0081d3c4fbd98607a7a413cf02c",
+  "url": "https://www.breezway.com.au/the-double-glazing-myths/",
+  "brand": "breezway",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "d178336552c8": {
+  "rid": "29e95e9af9ae411784f6736eead6f69c",
+  "url": "https://www.breezway.com.au/technical/compliance/",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "52fcdc079184": {
+  "rid": "94078f4a96a84b859b3414f669b86fd4",
+  "url": "https://www.breezway.com.au/media/what-happens-to-breezway-louvre-windows-in-a-cyclone-owner-reviews/",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "b1e4fb3f0d20": {
+  "rid": "9b4bbaebad0040fea36912eee52cffc7",
+  "url": "https://www.breezway.com.au/fall-prevention-cpd/",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "5692f1f79941": {
+  "rid": "ea7fa8323cf940798db6f97197fb4a61",
+  "url": "https://www.breezway.com.au/altair-louvre-security-bars-and-energy-efficiency-considerations/",
+  "brand": "breezway",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "a791954913cc": {
+  "rid": "6edb79cd74aa4f13972651bad5fd22f2",
+  "url": "https://www.breezway.com.au/downloads/australia/Cyclone_Yasi_Testimonial4_Wayne_Kentish.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "c9db2eea5bb8": {
+  "rid": "fd77495aa16749318c1e281ddfb5db49",
+  "url": "https://www.stegbar.com.au/products/sliding-window-standard-roller-aluminium",
+  "brand": "stegbar",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "a8e847a50d30": {
+  "rid": "31e4c42d953d440daba3197763091bfc",
+  "url": "https://www.stegbar.com.au/products/sliding-stacking-door-standard-roller-timber",
+  "brand": "stegbar",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "38e70f2a310a": {
+  "rid": "40deab0b10354c8eb9857d9e684d4efe",
+  "url": "https://www.breezway.com.au/downloads/australia/Cyclone_Yasi_Testimonial12_Mark_Watson.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "046535ebe1b9": {
+  "rid": "f5bcf87e214d46c7b42d42e2e7bb9f7c",
+  "url": "https://www.stegbar.com.au/products/grange-slider-showerscreens",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "2e258f4bfa59": {
+  "rid": "b0c880db756048fbbfcbd8d936ee7ba1",
+  "url": "https://www.stegbar.com.au/products/sliding-stacking-door-standard-roller-aluminium",
+  "brand": "stegbar",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "ca6cca05b0a8": {
+  "rid": "7effcbb1bc8d444484d24aa5e74fbb8d",
+  "url": "https://www.stegbar.com.au/products/balmoral-balm-2",
+  "brand": "stegbar",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "865228aca2a8": {
+  "rid": "d609764c5a5f4c238c26a99e45aba750",
+  "url": "https://www.stegbar.com.au/products/balmoral-balm-12",
+  "brand": "stegbar",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "a265e797374b": {
+  "rid": "38c74ca88fde4c6da9ba5b69e664ab74",
+  "url": "https://www.stegbar.com.au/products/balmoral-balm-11",
+  "brand": "stegbar",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "d4872978fa44": {
+  "rid": "a463263888ea40ddb402d45b6b27e09a",
+  "url": "https://www.stegbar.com.au/products/balmoral-balm-10",
+  "brand": "stegbar",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "4be9da0e386a": {
+  "rid": "ec109501d58b4d499290a9ea512de47d",
+  "url": "https://www.stegbar.com.au/products/balmoral-balm-1",
+  "brand": "stegbar",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "0c5bfb67c521": {
+  "rid": "3761d65499da4f0e979fb6f8b9f15ae6",
+  "url": "https://www.stegbar.com.au/pages/why-is-glazing-important",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "26cab6e99aaa": {
+  "rid": "8d3e102d32104132b7b8c132a9528389",
+  "url": "https://www.stegbar.com.au/pages/understanding-energy-efficiency",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "5bd0c4b98c5f": {
+  "rid": "70639259001f462a904856f719aad88d",
+  "url": "https://www.stegbar.com.au/pages/soul-home-thermally-broken-windows-doors",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "a4e1715dfc52": {
+  "rid": "d74aac9746bf4c03ac049b422a9c82f9",
+  "url": "https://www.stegbar.com.au/pages/thermally-broken-windows-and-doors",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "d0210049dcd4": {
+  "rid": "cb79b968791444f690575123bf2444ba",
+  "url": "https://www.stegbar.com.au/pages/soul-home-glazing-types",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "bf94866c8ca8": {
+  "rid": "ce24c050864d4213a876fa7acf323e3a",
+  "url": "https://www.stegbar.com.au/pages/soul-home-energy-efficient-home",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "e66c09c538cc": {
+  "rid": "7ff5967119ff4b06bd5f3b8bc90dfce4",
+  "url": "https://www.stegbar.com.au/pages/maintaining-glazing",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "e2124940a77d": {
+  "rid": "a5342211918b4dd6b40e25a263cac684",
+  "url": "https://www.stegbar.com.au/pages/energy-efficiency",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "ef88d9ad1c98": {
+  "rid": "c48b1a45c0ad402dba656579653d125b",
+  "url": "https://www.stegbar.com.au/pages/7-star-energy-ratings-in-queensland",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "748990182288": {
+  "rid": "ae42da54907b4e8884ca2417140f05fd",
+  "url": "https://www.stegbar.com.au/collections/showerscreens",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "bfbd7ff6719d": {
+  "rid": "0f7d274f7d1e4586b5ed9ffc74f3aaf3",
+  "url": "https://www.stegbar.com.au/pages/7-star-energy-efficiency-southern-states",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "304246b93db3": {
+  "rid": "342cf41d58d843c2a228d84241793055",
+  "url": "https://www.stegbar.com.au/collections/semi-frameless-showerscreens",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "e665f48786fe": {
+  "rid": "c6e6ddd936904338a7ee6844def10384",
+  "url": "https://www.stegbar.com.au/collections/envira-doors-thermally-broken",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "d17f63977623": {
+  "rid": "24e26778d4db482ea83653ae17296c20",
+  "url": "https://www.stegbar.com.au/collections/envira-windows-thermally-broken",
+  "brand": "stegbar",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "81349de85fa7": {
+  "rid": "f3b19eb9be0c4afbb37dd12ca34b0727",
+  "url": "https://www.alwindows.com.au/product-performance/energy-efficiency/thermally-broken-sash-and-panel/",
+  "brand": "alwindows",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "2e27f63598a4": {
+  "rid": "98f3f0f914764232a9f67bc8b99fed43",
+  "url": "https://www.alwindows.com.au/product-performance/energy-efficiency/inline-reveal/",
+  "brand": "alwindows",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "27a955c140cd": {
+  "rid": "9e5e3f57348d490b9b6d8dc2758da901",
+  "url": "https://www.alwindows.com.au/product-performance/energy-efficiency/low-e-glass/",
+  "brand": "alwindows",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "5827aa561a25": {
+  "rid": "149f8f93490743d49cbef20b317dc03e",
+  "url": "https://www.alwindows.com.au/product-performance/energy-efficiency/comfortsmart-hybrid/",
+  "brand": "alwindows",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "8e21bba656c9": {
+  "rid": "0cd3b3e8c1dc4bf59c5cde33c4df3213",
+  "url": "https://www.alwindows.com.au/product-performance/energy-efficiency/double-glazed-windows-lp/",
+  "brand": "alwindows",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "d977a3d89aaa": {
+  "rid": "7f712ca6130847ad80ccf583dd4d35cc",
+  "url": "https://www.alwindows.com.au/product-performance/energy-efficiency/",
+  "brand": "alwindows",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "fa4eb7124131": {
+  "rid": "70b4918341a64f8ea24ae6196f669965",
+  "url": "https://www.alwindows.com.au/product-performance/cyclone-resistance/",
+  "brand": "alwindows",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "427753b868d7": {
+  "rid": "a21ca4bfe900499e8ac804dfd46161fd",
+  "url": "https://www.alwindows.com.au/product-performance/acoustic-performance/",
+  "brand": "alwindows",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "b1718dac6e3d": {
+  "rid": "0db55aa264a3465f9f083ff70c7bc2c5",
+  "url": "https://www.alwindows.com.au/product-performance/bushfire-ratings/",
+  "brand": "alwindows",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "1adc121f1d6f": {
+  "rid": "826f2a361cfd4c84a8f10a85a4bbd8fa",
+  "url": "https://www.trendwindows.com.au/pages/thermally-broken-windows-and-doors",
+  "brand": "trend",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "e558d6a269f6": {
+  "rid": "0404583263ac41338dbf430d65f08084",
+  "url": "https://www.trendwindows.com.au/pages/intro-to-glazing-bars",
+  "brand": "trend",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "13012eba9812": {
+  "rid": "0892d3a8f07f422abb27d76b9e48f15b",
+  "url": "https://www.trendwindows.com.au/pages/ncc-2022-changes",
+  "brand": "trend",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "c9afa36d6334": {
+  "rid": "ff6bad38c9374558ab61bd4b98aeb73a",
+  "url": "https://www.trendwindows.com.au/pages/guide-to-double-glazing",
+  "brand": "trend",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "22dc3b9d4653": {
+  "rid": "5764c3541388414ab09b3da1f57fe968",
+  "url": "https://www.trendwindows.com.au/pages/glazing-bars",
+  "brand": "trend",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "ba8035f64238": {
+  "rid": "b1595397020045e7975e06e617354e27",
+  "url": "https://www.trendwindows.com.au/pages/glazing-options",
+  "brand": "trend",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "413ba098b168": {
+  "rid": "cc54f48c97ac49ad93bd65d1c8042136",
+  "url": "https://www.trendwindows.com.au/pages/energy-efficiency",
+  "brand": "trend",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "a16b2bb83c65": {
+  "rid": "3e50c931395a48f2bfaa741f22367cc5",
+  "url": "https://www.trendwindows.com.au/pages/bushfire-ratings",
+  "brand": "trend",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "52fa320ef0a1": {
+  "rid": "JUNK",
+  "url": "https://www.corinthian.com.au/standard-page/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "7b0e243b798d": {
+  "rid": "JUNK",
+  "url": "https://www.corinthian.com.au/standard-page-dark-placeholders/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "65cc53229333": {
+  "rid": "5e5a19285c214ecbbb7e05c6249d8ed2",
+  "url": "https://www.corinthian.com.au/doors/veneer/vexp-bal-29/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "4255d84571e8": {
+  "rid": "ba69da3d9a3e472c9e4a58a682fa89ef",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-bf-4g/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "36da1526e310": {
+  "rid": "aba1673458cb4fabadf416a9e0146fcc",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-bf-4/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "466c5239234c": {
+  "rid": "6edd275e4df8450992e923979411a699",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-6/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "7bf15c1671c0": {
+  "rid": "8c63cf13e11948f7849044f54fb9f84a",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-5/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "eb7d8e3f5923": {
+  "rid": "6e472b31245544f88eab72b3eb0754f0",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-4g/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "8a1df50a0ef9": {
+  "rid": "ce06c339c5784748bc1ad80cfca7726a",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-4/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "a5ffba31679a": {
+  "rid": "2d07987086ea471ca667794b6675f9cf",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-3/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "39380144f55c": {
+  "rid": "b9611c7f295346da8bac180e1a6bf084",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-2/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "4b70a6012c96": {
+  "rid": "72508431db3c478799adac70802272fb",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-12/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "e57e7906f1fa": {
+  "rid": "b12f1e1262534d77944ddc2ff82e309c",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-11/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "e77a20ecbb7d": {
+  "rid": "28f4f3661c9f4648b0bec3ee2c5fe3a8",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-10/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "9b2ff6b1a4a5": {
+  "rid": "b7bbf5fcce604cc38aaf89fd74d4d0d9",
+  "url": "https://www.corinthian.com.au/doors/entrance/pmad-7-bal-12-5/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "f0cf6c8a7546": {
+  "rid": "8cc25ec327b547388955d8729c3c245c",
+  "url": "https://www.corinthian.com.au/doors/internal/pbal-1/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "fe15baf5160a": {
+  "rid": "a6cffd4c09c6442da38c069bcdbfedbb",
+  "url": "https://www.corinthian.com.au/doors/entrance/exp-bal29/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "253ffddc651c": {
+  "rid": "30e5e26820c94820a5e93c77745a6c3f",
+  "url": "https://www.corinthian.com.au/doors/entrance/exp-bal12-5/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "7347bd75f90a": {
+  "rid": "c795d2dd31964da3a25b40892a6b45d4",
+  "url": "https://www.corinthian.com.au/collections/primed-bal-29-rural/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "e36cfdc3bd68": {
+  "rid": "fcad66f2a61b45a99708f3b624c4cce2",
+  "url": "https://www.corinthian.com.au/collections/balmoral/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "060546f2842b": {
+  "rid": "2590050d3e404880be072370af13289b",
+  "url": "https://www.corinthian.com.au/collections/bal-40-bushfire/",
+  "brand": "corinthian",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "2789d0b047b2": {
+  "rid": "e9ce697215254f70921e0ecdd1ed4fb9",
+  "url": "https://aneetawindows.com.au/technical/performance-compliance/",
+  "brand": "aneeta",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "c06b54375968": {
+  "rid": "37f660155b3f4bbc9e16685e2367c8a1",
+  "url": "https://aneetawindows.com.au/technical/energy-efficiency/",
+  "brand": "aneeta",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "bd6ae8c04de6": {
+  "rid": "7299af5694d448558bd368286af20b9e",
+  "url": "https://www.regencyscreens.com.au/pages/browse-showerscreens",
+  "brand": "regency",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "f0ec8e223f8c": {
+  "rid": "34af4f482ff748849182bdca04bad3fe",
+  "url": "https://www.regencyscreens.com.au/collections/showerscreens",
+  "brand": "regency",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "56a87ffb95ff": {
+  "rid": "1457ac1967fc4c5ebffa63aa59e4c515",
+  "url": "https://www.regencyscreens.com.au/collections/semi-frameless-showerscreens",
+  "brand": "regency",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "a421a972c4d8": {
+  "rid": "234fee30139e4226ac63ff619d843d2b",
+  "url": "https://www.regencyscreens.com.au/collections/browse-all-showerscreens",
+  "brand": "regency",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "075dfc25f0fa": {
+  "rid": "ab9e6c405cbf454e8a03a7339ad83d62",
+  "url": "https://ventoraglass.com.au/products/vinyl-back-mirror-safety-style-for-modern-interiors",
+  "brand": "ventoraglass",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "4cf004b88d9d": {
+  "rid": "11a27202454d46aaae09722390890c63",
+  "url": "https://ventoraglass.com.au/products/toughened-double-glazing-strength-efficiency-compliance-1",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "097900943124": {
+  "rid": "b1654e1a87e249eda0af3cd2a2206c63",
+  "url": "https://ventoraglass.com.au/products/toughened-double-glazing-strength-efficiency-compliance",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "1b41d7de7d93": {
+  "rid": "b6439c26c0814d1ea7618f469068895f",
+  "url": "https://ventoraglass.com.au/products/toughenable-mirror-safety-meets-style",
+  "brand": "ventoraglass",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "03f6184b3c2b": {
+  "rid": "d7997b567100485c984bec2c8bea84c0",
+  "url": "https://ventoraglass.com.au/products/energy-efficient-single-glazed-solutions",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "dcda5843b87d": {
+  "rid": "aa5c93098d4c4ea9b794e8f5e8a2d514",
+  "url": "https://ventoraglass.com.au/products/energy-efficient-double-glazed-glass-solutions-1",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "144f17e370f6": {
+  "rid": "140bf31a3f1f47adbd12882794e52b58",
+  "url": "https://ventoraglass.com.au/products/energy-efficient-double-glazed-glass-solutions",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "bbbc49c61207": {
+  "rid": "e96efcabaa714308b313287a20de4d2b",
+  "url": "https://ventoraglass.com.au/products/advanced-double-glazed-energy-efficient",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "661f80bef5b6": {
+  "rid": "8444fb2d01eb4a8c87ccfce55468af7d",
+  "url": "https://ventoraglass.com.au/pages/tps-double-glazing",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "f000903b5960": {
+  "rid": "72e2475d10c946e8843613e71ab94cd2",
+  "url": "https://ventoraglass.com.au/collections/toughened-double-glazing",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "f126c29475d5": {
+  "rid": "2bfaa1a336c947a5aed999cc2484bc22",
+  "url": "https://ventoraglass.com.au/collections/safety-glass",
+  "brand": "ventoraglass",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "c43cf9b8a5ae": {
+  "rid": "c6ba189373b1410ea4a162653c5c85fa",
+  "url": "https://ventoraglass.com.au/collections/laminate-acoustic-laminate",
+  "brand": "ventoraglass",
+  "doctype": "compliance",
+  "kind": "link"
+ },
+ "e5c5549bec43": {
+  "rid": "c7756826c7bf4b3d9c573f7c4ba198d7",
+  "url": "https://ventoraglass.com.au/collections/energy-efficient-single-glazing",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "784a13adcd92": {
+  "rid": "ded97cc2f076404e9db4dae062c287a3",
+  "url": "https://ventoraglass.com.au/collections/energy-efficient-double-glazing-advanced",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "4e918e73b768": {
+  "rid": "adb11132027d4be68695915b9228c156",
+  "url": "https://ventoraglass.com.au/collections/energy-efficient-double-glazing",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "6a70e0f179a5": {
+  "rid": "3052974e4e6b4db8bbee27fb8353af7a",
+  "url": "https://ventoraglass.com.au/collections/energy-efficient",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "6c2b29b14f05": {
+  "rid": "cbe635cef275407cb6fa59e008ee48e9",
+  "url": "https://ventoraglass.com.au/collections/double-glazed-energy-efficient",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "9e74ba0599c9": {
+  "rid": "8f632bbf682b4ba881cd69d8315eab81",
+  "url": "https://ventoraglass.com.au/collections/double-glazing",
+  "brand": "ventoraglass",
+  "doctype": "energy",
+  "kind": "link"
+ },
+ "ab676970a426": {
+  "rid": "eebddd255b1d4fcc940bfb34249da893",
+  "url": "https://www.breezway.com.au/downloads/australia/SL2_250mm_Brick_Veneer_Building-In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "12737f39136f": {
+  "rid": "SKIP",
+  "url": "https://www.breezway.com.au/downloads/australia/250mm_Brick_Veneer_Building_In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "574738cdb670": {
+  "rid": "SKIP",
+  "url": "https://www.breezway.com.au/downloads/australia/Powerlouvre_Electricians_Guide_2026.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "ebf3665dca0a": {
+  "rid": "2b1650c3bb4c4dee9096104f1c4a2267",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_PL_CBus_interface.pdf",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "03e9509881ae": {
+  "rid": "405b8f145ddd4eb3983b38bd6f8632f1",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_Innoscreen_Screen_Deductions_160317.pdf",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "ce6562d82c99": {
+  "rid": "6634ff416b2644f8a17d8922203635da",
+  "url": "https://www.breezway.com.au/downloads/australia/SL2_Concrete_Block_Building-In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "5d2ece097c2f": {
+  "rid": "b196304544d54eca991064ebe54415ac",
+  "url": "https://www.breezway.com.au/downloads/australia/Innoscreen_76mm_Stud_Building_In_Details_150116.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "e3f850134032": {
+  "rid": "5fbdbb9c0d3e42689d2145d3dd1a579b",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_Air_infiltration_ventilation_aircon_load.pdf",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "5febecb234c1": {
+  "rid": "6ff08a1129484163bb00f9045e159aa0",
+  "url": "https://www.breezway.com.au/downloads/australia/Easyscreen_Flat_FC_on_Studs_Building-In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "bd641e115d13": {
+  "rid": "1055f8d53b6d4b4f858aaa6560e90a08",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_Ventilation_Openings.pdf",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "c85b8dc084d9": {
+  "rid": "58efb4c0a274454881c09a7494f19ccb",
+  "url": "https://www.breezway.com.au/downloads/australia/Weatherboards_70mm_Studs_Building_In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "7a4dc9598a9e": {
+  "rid": "aa9f6610b36342e8a816e4c0746565cd",
+  "url": "https://www.breezway.com.au/downloads/australia/SL2_Weatherboard_on_90mm_Studs_Building-In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "dd863cb917e8": {
+  "rid": "fa11443364854a4b9392de2a66d7bb69",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_ES_Screen_Deductions.pdf",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "d75a0c62abe0": {
+  "rid": "567a2c12522247b4b296643f61fc43f4",
+  "url": "https://www.breezway.com.au/downloads/australia/280mm_Cavity_Brick_Building_In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "ec30fa499151": {
+  "rid": "36e1f2fa2a284921865e82b4b16146a9",
+  "url": "https://www.breezway.com.au/downloads/australia/SL2_280mm_Cavity_Brick_Building-In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "0f4aacf50d23": {
+  "rid": "3d690efaf99f424ea334f7184faf0732",
+  "url": "https://www.breezway.com.au/downloads/australia/Sub_Framing_Building_In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "a5c6b51321e3": {
+  "rid": "a1663318e00c44cda3904d00b01130a8",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_Advantages_ventilation_schools.pdf",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "c46befc0bc3b": {
+  "rid": "0121ab9fb38d4ed7bb258471ab206623",
+  "url": "https://www.breezway.com.au/downloads/australia/Innoscreen_Weatherboards_90mm_Building-In_Details_150116.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "911888c3a929": {
+  "rid": "0ef2199b65f742fda0347f95e6eed9c3",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_ventilation_benefits.pdf",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "59bdb352fb29": {
+  "rid": "2ad4d51855aa484cae79466e9bf0ba19",
+  "url": "https://www.breezway.com.au/downloads/australia/Easyscreen_Blockwork_Building-In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "c3855045c475": {
+  "rid": "SKIP",
+  "url": "https://www.breezway.com.au/downloads/australia/76mm_Stud_Building_In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "520aab3c0c65": {
+  "rid": "48a75346a5aa42719121d79837deb749",
+  "url": "https://www.breezway.com.au/downloads/australia/Weatherboards_90mm_Studs_Building_In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "e6ad1200d474": {
+  "rid": "0daebc79c2a74f95b013a6a9ec617f79",
+  "url": "https://www.breezway.com.au/downloads/australia/Concrete_Block_Wall_Building_In_Details.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "b42ca1b52628": {
+  "rid": "f30081ca64204ac1b86ddb8e53b2ca72",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/124532_window-and-door-specification-for-7-stars-nsw-vic-sa-act_bc6997e5-836e-4ca2-9da7-5a2808c8fcbd.pdf?v=9514156841688305245",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "fea6d9e8af62": {
+  "rid": "ddccdf4a09544bacb90d8c6cc21c92c2",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/AGWA_Window_Installation_Guide.pdf?v=1769760225",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "ddfb13064c7a": {
+  "rid": "44ae507551c04f0081729c53590fa83f",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/124529_window-and-door-specification-for-7-stars-qld_a2ee5650-b482-4ba5-97c0-e4d301e653de.pdf?v=1764325825",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "c918c0c95e6d": {
+  "rid": "f9a55af9c9f840e19a6ba0f45fe899d8",
+  "url": "https://www.breezway.com.au/downloads/australia/Innoscreen_Flat_FC_Stud_Building-In_Details_150116.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "dc621e55414c": {
+  "rid": "91249543da6b4256ac89a952d2d1bbaf",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/77790_care-and-maintenance-windows--doors-stegbar_4ea0fb61-8bdb-41ee-804f-40f554300d26.pdf?v=1767162446",
+  "brand": "stegbar",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "6fb9b45b6852": {
+  "rid": "32142d277e7043f9aa729cdb6ee0c626",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/sliding-doors-framed-two-door-assembly-and-installation-guidelines_a75da3c1-7d9a-4137-88e8-b773a51c6bf0.pdf?v=1766737830",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "b9a7b9a9a3e6": {
+  "rid": "6dd19958542c4cdca446541a37ef8ea3",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/galleria-built-in-wardrobes-bir2.9-assembly-and-installation-guidelines.pdf?v=1766737831",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "35c371884ec2": {
+  "rid": "95b0c01a23834fd890c72403c24c4533",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/front-and-interior-doors-installation-guide.pdf?v=1766734979",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "567c517d671f": {
+  "rid": "eafbe8d0ac4f4d3e90fdcaf5dafa2684",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/galleria-walk-in-robe-12.0-installation-guidelines_21e8f753-eb22-417a-9ece-53753d06a48e.pdf?v=1776293334",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "3c9d095d6ac3": {
+  "rid": "11d463ba50de4985a2a0743d1fd26844",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/frameless-mirror-gothic-rect--rnd-rect-assembly-and-installation-guidelines.pdf?v=1766739244",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "532a5df08e24": {
+  "rid": "7d0b59de40414a349365827b6c0c3698",
+  "url": "https://www.breezway.com.au/downloads/australia/Innoscreen_Concrete_Block_Wall_Building-In_Details_150116.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "759e1b0e2aab": {
+  "rid": "ef3cb220879542dd873a41e557f2e4a8",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/galleria-walk-in-robe-9.0-installation-guidelines.pdf?v=1766737836",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "8b8c73a2b781": {
+  "rid": "43dd4779750446a485c4717899de8c32",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/semi-framed-shower-screens-front--return-assembly-and-installation-guidelines.pdf?v=1766739245",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "b839cfc204dd": {
+  "rid": "9a14ba8aa0eb4b9c98eb43860c2b6f11",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/frameless-mirror-round--oval-shaped-assembly-and-installation-guidelines.pdf?v=1766739244",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "7682370ed20f": {
+  "rid": "33128292138b4431a163f432cd7e6891",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/galleria-built-in-wardrobes-bir03-assembly-and-installation-guidelines.pdf?v=1766737831",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "3f0a987fe575": {
+  "rid": "202a0d4cb7154221ad53a318e97542ae",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/galleria-built-in-wardrobes-bir04-assembly-and-installation-guidelines.pdf?v=1766737835",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "2459669918ad": {
+  "rid": "d95edcc16921481daebd3f68ca54b19e",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/frameless-shower-screens-clip-fixed-panel-assembly-and-installation-guidelines.pdf?v=1766739245",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "78da0790082c": {
+  "rid": "1f66c446b1b24910a058d66dc2313675",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/galleria-walk-in-robe-7.0-installation-guidelines.pdf?v=1766737835",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "fc211642953e": {
+  "rid": "37f348f948ac432dafbe4f0a3ae2990b",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/semi-framed-shower-screen-front-only-assembly-and-installation-guidelines.pdf?v=1765481989",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "6d85c4139de6": {
+  "rid": "a88d0ce542d346dc8214581d2f95c75d",
+  "url": "https://www.breezway.com.au/downloads/australia/Innoscreen_Sub_Frame_Building-In_Details_150116.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "5deb469e2009": {
+  "rid": "DUP",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/galleria-walk-in-robe-12.0-installation-guidelines_21e8f753-eb22-417a-9ece-53753d06a48e.pdf?v=14708231124417243371",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "751d45dc1575": {
+  "rid": "dc711bf25c414f17b683d25a17be20f6",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/frameless-shower-screens-channel-fixed-panel-assembly-and-installation-guidelines.pdf?v=1766739245",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "69bbcf14eaa0": {
+  "rid": "94dfa04a2804463684c2c1a09c9fdb5d",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/stegbar_installguide_bw_booklet_sliding-doors_framed-three-door_1.pdf?v=1776294212",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "a7e5daa30dcf": {
+  "rid": "7c664003726b49eb8f72de3241a92180",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/132981_enviraluxe-awning-windows-specification.pdf?v=14066288344324031586",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "29d834049112": {
+  "rid": "1085cd69cfd04abaa15dfd4e81751855",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/77799_care-and-maintenance_-wardrobes-stegbar_ca0444f4-0830-4fdc-a70b-9157b16deaf8.pdf?v=4475218066030486620",
+  "brand": "stegbar",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "24cec6c4fe94": {
+  "rid": "132ccc0cb1294167a625506381321cc2",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/132973_enviraslim-sliding-windows-specification.pdf?v=8053790352757763142",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "c090d43dce9a": {
+  "rid": "1db8b447d3f04addbcde4ae277c735a7",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/132975_enviraslim-awning-window-specification.pdf?v=18273012025561867691",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "1ad133b7ddce": {
+  "rid": "DUP",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/77790_care-and-maintenance-windows--doors-stegbar_4ea0fb61-8bdb-41ee-804f-40f554300d26.pdf?v=5003911570630231464",
+  "brand": "stegbar",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "f3578fbb6236": {
+  "rid": "f74ce88175c947caa90cd9fe21659e0d",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/132969_enviraluxe-sliding--stacking-doors-specification.pdf?v=7885663331793607727",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "1058d1f687d0": {
+  "rid": "DUP",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/124529_window-and-door-specification-for-7-stars-qld_a2ee5650-b482-4ba5-97c0-e4d301e653de.pdf?v=7533203368219504181",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "879bac0b4fb5": {
+  "rid": "d490f110e43d41568ca82a67d9d85419",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/132977_enviraslim-fixed-lite-windows-specification.pdf?v=9280276875876089392",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "dc0cebd3743a": {
+  "rid": "14e6b6f3b96f487782e6613103087948",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/136347_accessible-sliding-door-spec-sheet_e5bcd0bd-59a4-4e0e-8cf1-86a8903fcaaa.pdf?v=10512494717698403469",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "1a2d8954360a": {
+  "rid": "caa5153543694de39ab7a1cc0f8d5640",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/132965_enviraslim-sliding--stacking-door-specification.pdf?v=5108191157398347503",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "3a7cea9feb88": {
+  "rid": "5b2687e8c9bf4e49a7f96285e0c80520",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/timberaul-specs-and-options_cb0db20d-d4ae-4177-961e-d25f78868eb9.pdf?v=7715460197946362085",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "06322dc12115": {
+  "rid": "13b73946d7674936bd11a36098e3de0f",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/127472_stegbar-galleria-shaker-doors-spec-sheet.pdf?v=9018379894440573160",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "7a386c7ceb84": {
+  "rid": "61762b6d6f3444769d16175f0726a656",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/132971_enviraluxe-hinged-doors-specification.pdf?v=15739810265253903733",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "44a28892d4e8": {
+  "rid": "DUP",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/77799_Care_and_Maintenance__Wardrobes_Stegbar.pdf?v=1769760199",
+  "brand": "stegbar",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "d655ff9f6518": {
+  "rid": "DUP",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/front-and-interior-doors-installation-guide.pdf?v=7144880969977966803",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "5f2a8b77b833": {
+  "rid": "DUP",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/117388_Care_and_Maintenance_Windows_and_Doors.pdf?v=1769760203",
+  "brand": "stegbar",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "872ff22cef7a": {
+  "rid": "cedc4233d2b94e39b6d430298ada1bd2",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/132979_enviraluxe-fixed-lite-windows-specification.pdf?v=541918162477777310",
+  "brand": "stegbar",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "352302dd3898": {
+  "rid": "40f7b9b923ff41f7ab1798d6e0801c30",
+  "url": "https://cdn.alwindows.com.au/wp-content/uploads/2024/08/AL-Clean-and-Care-Hard-coat-Low-E.pdf",
+  "brand": "alwindows",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "755fb97a567f": {
+  "rid": "9b027bc8fb4842d1a2dd565bf3fda785",
+  "url": "https://cdn.alwindows.com.au/wp-content/uploads/2024/08/AL_Collateral_Care_Guide_A4.pdf",
+  "brand": "alwindows",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "dab4a5745310": {
+  "rid": "9c622f15437b48a89924e04ae41b41fd",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/trend3panelfxfinstallmk1_25feb10.pdf?v=1767856223",
+  "brand": "trend",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "4a6092c68cdb": {
+  "rid": "25890186e3f64f18a251f40884026b6f",
+  "url": "https://www.alwindows.com.au/wp-content/uploads/2023/09/AL_Product_Care_Guide_Sept23.pdf",
+  "brand": "alwindows",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "7cce8293c42f": {
+  "rid": "7182f629b0ac4dbda735e20204ffa3f7",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/trend2panelfxorxfinstallmk1_25feb10.pdf?v=1767856223",
+  "brand": "trend",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "af8a3dbe772c": {
+  "rid": "a1b9528199594470b5e175e5d1642197",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/doorlocklinstall25feb10.pdf?v=1767857649",
+  "brand": "trend",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "3cd33a2396dd": {
+  "rid": "59f878fac2e14b11b3c001f2d2b0190e",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/flyscreeninstallation_06nov2008.pdf?v=1767857649",
+  "brand": "trend",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "b8f4b4186b50": {
+  "rid": "a1801cfb20c6449e9822a47262aad3ca",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/trend6panelfxxxxfinstallmk1_25feb10.pdf?v=1767856223",
+  "brand": "trend",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "b074fdb1cac1": {
+  "rid": "b1906c0dbcfe4ee594af19d59af92503",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/flydoorlatchinstall25feb10.pdf?v=1767857649",
+  "brand": "trend",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "13062045f8ce": {
+  "rid": "b3a663fc485e49799e2e026be3cd7bc9",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/flydoorbarrierdoorinstall25feb10.pdf?v=1767857649",
+  "brand": "trend",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "40fd0e4cb7cc": {
+  "rid": "69c0d91632d942b3ba86bd209060c834",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/trend3panelffxorxffinstallmk1_25feb10.pdf?v=1767856223",
+  "brand": "trend",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "2404c4f15818": {
+  "rid": "758e607a7e62414692095ad33792e801",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/doorinstallationstickersweb.pdf?v=1767857650",
+  "brand": "trend",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "4738488ddfc8": {
+  "rid": "DUP",
+  "url": "https://www.trendwindows.com.au/cdn/shop/files/trend-care-and-maintenance-may-24.pdf",
+  "brand": "trend",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "04be7735ed84": {
+  "rid": "e438c03db0f94db2bbf66dd5157a67c9",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/trend-care-and-maintenance-may-24.pdf?v=1767705044",
+  "brand": "trend",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "4246cb317e27": {
+  "rid": "85e30e38ed524013bbd09f8b994d6e5e",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/trend4panelfxxfinstallmk1_25feb10.pdf?v=1767856223",
+  "brand": "trend",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "49edee902890": {
+  "rid": "DUP",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/09/10150344/20240903-%E2%80%93-Door-Maintenance-Care-Update_V2.0.pdf",
+  "brand": "corinthian",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "1b89720a728d": {
+  "rid": "94b887be51ba4fefa63be093aa8a0732",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/09/11103739/20240903-%E2%80%93-Door-care-maintenance.pdf",
+  "brand": "corinthian",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "63b8f536302f": {
+  "rid": "bef367317d344f62919bfa5b39734694",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/09/10150345/20240903-%E2%80%93-Installing-your-new-door_V2.0.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "d7285356cb1a": {
+  "rid": "ad45ed9eaa6b446cbe59a8ddbf43c034",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/07/25233624/Attica-Hardware_Preparing-for-Installation_CORCNAT0629-224-1.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "183a82d378d3": {
+  "rid": "49413afbb1b64c85bdb7342f5c3a9282",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/07/25233801/Moda-Hardware_Barn-Door_Installation-Instructions_CORCNAT0635-224-2.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "b49c0686c6c6": {
+  "rid": "DUP",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/09/11103739/20240903-%E2%80%93-Door-installation.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "685a64a88938": {
+  "rid": "ad884f3253dd45b89a05841040e5c35d",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/07/25233755/JELD0298_Platinum_4000_Soft_Closer_Install_Instructions_CORCNAT0627-224-1-2.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "cc58a807e0e2": {
+  "rid": "f1386fb43d6a47049d5d94cafe307a3e",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/07/25233759/Manhattan-Doors_Preparing-for-Installation_CORCNAT0634-224-1.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "1715b300c52e": {
+  "rid": "dece1ae14a0149dcadd0b7b5b780434e",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/12/03111356/Slimline-Cavity-3000-QuickFix_Installation-Instructions_MAR24_MN.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "09440c5e8191": {
+  "rid": "6c697ad054a34e34868f737652f4df7e",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/07/25233625/COR0546-02_Platinum_Cavity_9000_Door_Installation_Guide_DL-October-2023-Singles.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "dd4e560eba01": {
+  "rid": "SKIP",
+  "url": "https://aneetawindows.com.au/download/cad/special-applications/3.4-6 Electricians Guide (D).pdf",
+  "brand": "aneeta",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "84f555c2e3e2": {
+  "rid": "SKIP",
+  "url": "https://aneetawindows.com.au/download/cad/special-applications/3.4-6 Electricians Guide (C).pdf",
+  "brand": "aneeta",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "bfc8e2a379f6": {
+  "rid": "6607ae6257ce4065a9530fc666ff0800",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/08/30051324/230919_JELD0910_Platinum_Cavity_6000_Door_Installation_Guide-CORCNAT0626-224_FINAL_MN.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "3d49cf60c1c8": {
+  "rid": "6dc5901b86e04066ae0b3a0d8fb3fc23",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/07/25233623/Attica-Hardware_Face-of-Wall_Installation-Instructions_CORCNAT0628-224-2.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "dc59dba521f2": {
+  "rid": "3e4f46e8f5fb4ee9ae9c5b88c2da19ae",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/12/03111315/Platinum-4000-Cavity-QuickFix_Install_Instructions_MAR24_MN.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "4c21e527c231": {
+  "rid": "f489e949426947dfb978d8d166a24c40",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/07/25233757/JELD0298_Platinum_Cavity_4000_Install_Instructions_CORCNAT0633-224-1.pdf",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "2d555c8da8d1": {
+  "rid": "c735589ae73c43d783c727ee2d4a4b41",
+  "url": "https://www.ventora.com.au/specification",
+  "brand": "ventora",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "45de37a4b847": {
+  "rid": "5a02ee277bcd426f887c18d7691cfaa8",
+  "url": "https://ventoraglass.com.au/cdn/shop/files/Nanoclean.pdf?v=11411110680585355146",
+  "brand": "ventoraglass",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "2bde8903ca4a": {
+  "rid": "93529be577454c9d91207a9fef99f600",
+  "url": "https://ventoraglass.com.au/cdn/shop/files/Ventora_Glass_-_Specify_SimplEE_Brochure.pdf?v=453582224329191359",
+  "brand": "ventoraglass",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "d4eae5262e92": {
+  "rid": "3698ef38513a4e00b1e7ec20a94b3849",
+  "url": "https://ventoraglass.com.au/cdn/shop/files/Cleaning_Instructions.pdf?v=369740683074674944",
+  "brand": "ventoraglass",
+  "doctype": "care",
+  "kind": "file"
+ },
+ "364867d1838d": {
+  "rid": "a7837a39fc024a82af8c70baa9e80ddf",
+  "url": "https://www.ventora.com.au/careers/job-opportunities",
+  "brand": "ventora",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "6778ea8d8d17": {
+  "rid": "d79cbd3d1e7e41a9ae39a59e73820f2d",
+  "url": "https://www.ventora.com.au/careers",
+  "brand": "ventora",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "59bc989c947d": {
+  "rid": "fc46dea771d04c5b91bb79efcada6788",
+  "url": "https://www.breezway.com.au/technical/testimonials/",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "7044e79ac87b": {
+  "rid": "c85e8a4a476a468daf674d289010f8df",
+  "url": "https://www.breezway.com.au/technical/downloads/",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "763d93d856d1": {
+  "rid": "a8b00a7be0c346dfb9ec08411d570091",
+  "url": "https://www.breezway.com.au/technical/faq/",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "7d624273ba47": {
+  "rid": "57747f02b0eb451d8e47b425f8a197bd",
+  "url": "https://www.breezway.com.au/technical/cpd/",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "dd9dd3d0ff73": {
+  "rid": "e1bbf82dcc73436f838906cfdd3995ba",
+  "url": "https://www.breezway.com.au/technical/checklist-specification/",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "c67441a33499": {
+  "rid": "a6ca79e24c2742e9a98a443374011e5b",
+  "url": "https://www.breezway.com.au/technical/altair-louvre-installations/",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "44a649dab09b": {
+  "rid": "8b9c7150e8e14de99fef73d27fad8632",
+  "url": "https://www.breezway.com.au/media/how-to-install-an-aluminium-sliding-window-into-double-brick-construction/",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "bcecb3b69b6a": {
+  "rid": "e68e765143654c0daccd4719c8671973",
+  "url": "https://www.breezway.com.au/media/the-breezway-dualair-system-installed-in-the-thuringowa-rsl/",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "325b87c39025": {
+  "rid": "656016366da3476e85711bffa7c77173",
+  "url": "https://www.breezway.com.au/stocked-range-installation-guide/",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "912df0bdcbe3": {
+  "rid": "70941a73b25d48a5823bca56d319932e",
+  "url": "https://www.breezway.com.au/media/how-to-install-an-aluminium-sliding-window-into-clad-lightweight-construction/",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "3fe50d3682ed": {
+  "rid": "b42a914844984f80bd4bec1c0eaf0093",
+  "url": "https://www.breezway.com.au/downloads/australia/Cyclone_Yasi_Testimonial6_John_Arrowsmith.pdf",
+  "brand": "breezway",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "19816cb5ed03": {
+  "rid": "c899935a407b4e1790c6edad8dfa4465",
+  "url": "https://aneetawindows.com.au/download/brochures/aneeta-WERS-ratings-Thermaglide-in-Futureline-frames.pdf",
+  "brand": "aneeta",
+  "doctype": "energy",
+  "kind": "file"
+ },
+ "d623c00a1738": {
+  "rid": "01c9e51a92264629842fa35f0cbe7d1f",
+  "url": "https://www.breezway.com.au/media/how-to-install-a-commercial-grade-aluminium-sliding-window-into-a-prepared-opening/",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "71f2edc21eff": {
+  "rid": "afaa196e2fe94b3eb52edcac951049fe",
+  "url": "https://www.breezway.com.au/media/how-to-install-an-aluminium-sliding-window-into-brick-veneer-construction/",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "ff42d4071eca": {
+  "rid": "e0676c2abd4e47deb55aaa669a2f505b",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_Altair_Design_Manual_Australia_290726.pdf",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "c06e48d2a3d3": {
+  "rid": "b5ac070997e84ef1ab569fb0c19b915a",
+  "url": "https://www.breezway.com.au/media/blue-haven-bonaira-aged-care-of-excellence/",
+  "brand": "breezway",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "da69e981e4aa": {
+  "rid": "1e8956cd5715432aaef09a3b896b6a4f",
+  "url": "https://www.breezway.com.au/design_manual/full-dm/",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "3614fd87dd58": {
+  "rid": "3dba33258a2b4932b00425404f98d73d",
+  "url": "https://www.breezway.com.au/design_manual/easyscreen-window-system/",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "6c864eedb20e": {
+  "rid": "8a0173ec319d40babb5d35e1cf40a88b",
+  "url": "https://aneetawindows.com.au/download/brochures/Aneeta-Fall-Prevention-Flyer.pdf?24012024",
+  "brand": "aneeta",
+  "doctype": "compliance",
+  "kind": "file"
+ },
+ "6a833b9b3a39": {
+  "rid": "433a32f2cac2490fad1b97fe51bae241",
+  "url": "https://www.breezway.com.au/design_manual/dualair-component-system/",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "3297cd8911e0": {
+  "rid": "3942b3ce1b304c80baaba12873548172",
+  "url": "https://www.stegbar.com.au/pages/what-height-should-i-install-my-new-mirror",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "2e60bae5c96e": {
+  "rid": "81b3228699c3447e9175101b45c1add7",
+  "url": "https://www.stegbar.com.au/pages/installation-service",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "ab6d06eb7602": {
+  "rid": "7c182fd14fce4e948882459698246c9c",
+  "url": "https://www.breezway.com.au/breezway-is-proud-to-be-a-natspec-product-partner/",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "ee064e5fb14b": {
+  "rid": "8cdb00f8d12a40d2a93eb423d3ee02dd",
+  "url": "https://www.breezway.com.au/design_manual/altair-component-system/",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "915ec26b29c3": {
+  "rid": "202fad94615b4898a693a185c76e4b36",
+  "url": "https://www.stegbar.com.au/pages/installation-guidelines",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "bf469fcb526f": {
+  "rid": "1231462acf9748728a9a9ce3d4642472",
+  "url": "https://www.stegbar.com.au/pages/how-to-prepare-for-installation",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "c162bec19747": {
+  "rid": "cadc43cf2831476482f617b53a4e9b06",
+  "url": "https://www.stegbar.com.au/pages/how-to-install-your-new-wardrobe-safely",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "144e1bd05ce5": {
+  "rid": "255f3b3acc51402eb17d93881093e76e",
+  "url": "https://www.stegbar.com.au/pages/cleaning-insect-screens",
+  "brand": "stegbar",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "2c4991fdcb1e": {
+  "rid": "8348ea260dfe4cbf91e4acae6edc6e1d",
+  "url": "https://www.stegbar.com.au/pages/cleaning-hardware",
+  "brand": "stegbar",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "1b53f93f3536": {
+  "rid": "b64788a2c48140f8a7bcf8b9bd91909b",
+  "url": "https://www.stegbar.com.au/pages/care-and-maintenance-centre",
+  "brand": "stegbar",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "bddbf95c151e": {
+  "rid": "e6ee7b6b68aa466b965e4ea7b9e2f010",
+  "url": "https://www.stegbar.com.au/pages/agwa-install-guidelines",
+  "brand": "stegbar",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "06c28c0b8d49": {
+  "rid": "6b96e62ae44649ef9a7fdedf3c4ba9fe",
+  "url": "https://www.alwindows.com.au/resources/product-installation/",
+  "brand": "alwindows",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "a441e38325a9": {
+  "rid": "a3af00229d6e477da8551bfc1be635ac",
+  "url": "https://www.alwindows.com.au/resources/technical-centre/",
+  "brand": "alwindows",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "e330037b3581": {
+  "rid": "34774d73fc984190a40e0fdb97192093",
+  "url": "https://www.alwindows.com.au/product-performance/light-and-ventilation/",
+  "brand": "alwindows",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "98fc452d10d9": {
+  "rid": "ab24af1196784506b5cf1a5c6702ef02",
+  "url": "https://www.alwindows.com.au/product-performance/",
+  "brand": "alwindows",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "a2714d656da9": {
+  "rid": "ec21a9b5539b4a68a028f978b5f5479e",
+  "url": "https://www.alwindows.com.au/resources/product-care/",
+  "brand": "alwindows",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "f4bbb4db8ff9": {
+  "rid": "dab93abd6b14434d87f232c51e7b9c5d",
+  "url": "https://www.alwindows.com.au/low-e-glass-care-guide/",
+  "brand": "alwindows",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "b59d5b2ffb1e": {
+  "rid": "0b1e8a23b7704792a6341b6445ca8b41",
+  "url": "https://www.alwindows.com.au/general-care-guide-download/",
+  "brand": "alwindows",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "3639330572a8": {
+  "rid": "e280b652b8304738831ae985e32b89bd",
+  "url": "https://www.trendwindows.com.au/pages/perspective-on-albatross",
+  "brand": "trend",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "e41cee94a159": {
+  "rid": "45422fe54b7a40dbac59c775c7930915",
+  "url": "https://www.trendwindows.com.au/pages/trade-specifiers",
+  "brand": "trend",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "8f9f71653cd4": {
+  "rid": "be49040b19dc408482f0cf6fa0df3e72",
+  "url": "https://www.trendwindows.com.au/pages/installation",
+  "brand": "trend",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "6c874c519ad6": {
+  "rid": "26a5bf9ffa87483ea86501b6b4745715",
+  "url": "https://www.trendwindows.com.au/pages/product-care",
+  "brand": "trend",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "3abfa076a4ff": {
+  "rid": "cf65afa7d01d4484b727381023ab2c85",
+  "url": "https://www.trendwindows.com.au/pages/timber-care",
+  "brand": "trend",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "c3228df13009": {
+  "rid": "43927d72c2f74831998b2ec6cfd7a26b",
+  "url": "https://www.trendwindows.com.au/pages/hardware-care",
+  "brand": "trend",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "ab290a040064": {
+  "rid": "0759bb2eb76140e890aff1900a46d45f",
+  "url": "https://www.trendwindows.com.au/pages/glass-care",
+  "brand": "trend",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "c6193669ee4a": {
+  "rid": "b0a3e74126cf4230b7e43371f6cb7e4f",
+  "url": "https://www.trendwindows.com.au/pages/aluminium-care",
+  "brand": "trend",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "c94b0f31d325": {
+  "rid": "592fadf15ed9461287c417e20a692b23",
+  "url": "https://www.corinthian.com.au/installation-instructions/",
+  "brand": "corinthian",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "c105b6b38a42": {
+  "rid": "1c450843768d4e3a95c77b9cd6f29eaa",
+  "url": "https://www.corinthian.com.au/care-and-maintenance/",
+  "brand": "corinthian",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "148cc8d9c079": {
+  "rid": "db6b7cd2c9324d9c9732682cb111f90d",
+  "url": "https://aneetawindows.com.au/technical/specification/",
+  "brand": "aneeta",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "a9521f406eee": {
+  "rid": "c33e611e4dea4da5ad85b4160bcab520",
+  "url": "https://aneetawindows.com.au/technical/electric/",
+  "brand": "aneeta",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "ce4b2ebe1b35": {
+  "rid": "2f5368ee0f34415bbe53163128663a76",
+  "url": "https://aneetawindows.com.au/technical/",
+  "brand": "aneeta",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "0e546d7cb96d": {
+  "rid": "a679b5907e1c4e0faf43bc0477e6bbdb",
+  "url": "https://aneetawindows.com.au/technical/downloads/",
+  "brand": "aneeta",
+  "doctype": "technical",
+  "kind": "link"
+ },
+ "ebda12294514": {
+  "rid": "dad71258eec94ed2a9ededc658d0368f",
+  "url": "https://www.regencyscreens.com.au/pages/how-to-prepare-for-installation",
+  "brand": "regency",
+  "doctype": "installation",
+  "kind": "link"
+ },
+ "f64b5dd787e1": {
+  "rid": "53f9929d12b241bdb2c0942d3b9e1cd7",
+  "url": "https://www.regencyscreens.com.au/pages/nanoclean-protective-coating",
+  "brand": "regency",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "95177cdc2b59": {
+  "rid": "a0c0d26af27a49268003b9d724a7c57c",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_UPS_Wiring_Guides.pdf",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "e9dc2817e79d": {
+  "rid": "c4b9ca5d56524690a0e63bb0ea97154e",
+  "url": "https://aneetawindows.com.au/technical/care-maintenance/",
+  "brand": "aneeta",
+  "doctype": "care",
+  "kind": "link"
+ },
+ "259db96e2c08": {
+  "rid": "814023cb883748c9b1a530e514367bc8",
+  "url": "https://www.stegbar.com.au/pages/shop-online-support-centre",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "9216318d8ddf": {
+  "rid": "f7e86b1e14274b95ae4bf1bdf57c4000",
+  "url": "https://www.stegbar.com.au/collections/windows-and-doors-hardware-finishes",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "ab193a7c383e": {
+  "rid": "12287daeb69f4eefa640dd9f98312b0f",
+  "url": "https://www.stegbar.com.au/collections/windows-and-doors-hardware",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "43c30bb153ad": {
+  "rid": "311d5c48f0bf454c9b246c731dfc199d",
+  "url": "https://www.stegbar.com.au/collections/wardrobes-hardware-finishes",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "f93ffd607385": {
+  "rid": "21d7dd16748349aa9fa1e440235f0beb",
+  "url": "https://www.stegbar.com.au/collections/wardrobes-hardware",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "117d69fdddae": {
+  "rid": "f6e7d787d8aa457f861de4990e54ab25",
+  "url": "https://www.stegbar.com.au/collections/spare-parts-windows",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "02c14bbedf4b": {
+  "rid": "827cf49ec133473aa925caa0ad2b00aa",
+  "url": "https://www.stegbar.com.au/collections/shower-screen-hardware-finishes",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "e0071f64de9f": {
+  "rid": "7344423238864c08a913d9956c557697",
+  "url": "https://www.stegbar.com.au/collections/spare-parts-wardrobes",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "f4a62dcbc192": {
+  "rid": "ebb802897fb14534b0cbc94815173e17",
+  "url": "https://www.stegbar.com.au/collections/spare-parts-doors",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "62b4a46dbfe0": {
+  "rid": "37f2b15084ed4615b225d622ee1224f3",
+  "url": "https://www.alwindows.com.au/spare-parts/",
+  "brand": "alwindows",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "5654856606f2": {
+  "rid": "86278fde44a44baa8a1d97b00d1cf26d",
+  "url": "https://www.stegbar.com.au/collections/hardware-and-finishes-options-stegbar",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "44ea74ed9ad2": {
+  "rid": "4a7e661ac3074a8c90d7464445a8131e",
+  "url": "https://www.stegbar.com.au/collections/shower-screen-hardware",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "421c9ebb2d0b": {
+  "rid": "d725eb2390764a798709a2782283f2c4",
+  "url": "https://www.alwindows.com.au/online-ordering-of-spare-parts/",
+  "brand": "alwindows",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "4dd9fe10d648": {
+  "rid": "0d181bd6d768410293e2f4885a08e131",
+  "url": "https://www.trendwindows.com.au/pages/hardware",
+  "brand": "trend",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "fd1ca692352f": {
+  "rid": "e77a9da5249e44f0ac31dbd8ca60fcaf",
+  "url": "https://www.trendwindows.com.au/pages/faq",
+  "brand": "trend",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "1ad9f473d502": {
+  "rid": "ee78f3f5a54440c49568ad23b130be9a",
+  "url": "https://www.trendwindows.com.au/collections/hardware",
+  "brand": "trend",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "9aecfd3590fc": {
+  "rid": "a04c5a48990c4b158b12c72754f64c6d",
+  "url": "https://www.corinthian.com.au/hardware/",
+  "brand": "corinthian",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "0bfc11d02a40": {
+  "rid": "1605add5c9414a118b317a74bf0707e4",
+  "url": "https://www.corinthian.com.au/door-handing/",
+  "brand": "corinthian",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "c0b9682965ec": {
+  "rid": "caec405ff42249febc3f5b03a2af66cf",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/8313_stegbar-galleria-hardware-and-finish-brochure_d13198d1-970f-4578-a404-9b1b0db6ac52.pdf?v=7662006439482460211",
+  "brand": "stegbar",
+  "doctype": "support",
+  "kind": "file"
+ },
+ "7094cefdbde9": {
+  "rid": "6da7b7dd89834f04ac5e6bf885559912",
+  "url": "https://www.regencyscreens.com.au/pages/help-support",
+  "brand": "regency",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "733f50f74bc7": {
+  "rid": "d4f7f84c8a2c496887c11e9f143e568b",
+  "url": "https://www.regencyscreens.com.au/pages/faqs",
+  "brand": "regency",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "cb50be49e99f": {
+  "rid": "5d97120ed6dc4493985aa9524e32c712",
+  "url": "https://www.regencyscreens.com.au/pages/ensuite-black-hardware",
+  "brand": "regency",
+  "doctype": "support",
+  "kind": "link"
+ },
+ "89a488d26690": {
+  "rid": "9168d2926b3843a7b86a4c6d2f26f6d1",
+  "url": "https://www.breezway.com.au/downloads/australia/Innoscreen_Blockwork_Building-In_Details_150116.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "43128d285da4": {
+  "rid": "6fd2bcbc33c8492bad096f5b151cee22",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/Stegbar_Wardrobe_Door_Collection_Brochure.pdf?v=3652703440444218223",
+  "brand": "stegbar",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "c0ad7b3cf639": {
+  "rid": "9d55d5664ad14c5891048954c794216e",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/Stegbar_Statesman_Pivot_Doors_Brochure.pdf?v=7503236057570040212",
+  "brand": "stegbar",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "9e2be5afa034": {
+  "rid": "857c01eb64a94cf6a3ac81c9bb280269",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/timberaul-window-and-door-brochure_19f02d65-7f79-4ddd-a271-a87d58a15f06.pdf?v=4976836110035063266",
+  "brand": "stegbar",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "0399c515954f": {
+  "rid": "d309936fc02341a4ad354296424a300a",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/128292_Stegbar_Shaker_Doors_Brochure.pdf?v=8137643173524067786",
+  "brand": "stegbar",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "46bd2efb5808": {
+  "rid": "8e64c133ac3c433881f9e8f6eee0c461",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/8290_alumiere-windows-and-doors-brochure-stegbar_e66fc5e9-8f7e-42a7-b987-144bc3a3c948.pdf?v=6878621009143997075",
+  "brand": "stegbar",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "0c1415cbdbd2": {
+  "rid": "346f69faffdc4f71bd54f0d34d2391d7",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/8298_siteline-catalogue_946da07d-029f-4bed-8c24-b34947634037.pdf?v=2304490300699041511",
+  "brand": "stegbar",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "de8200e2bd31": {
+  "rid": "c8d27f29660f4cc49af0b49ff2af8e1b",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/122635_stegbar-envira-collection-brochure_0e26f4e8-bceb-4c00-87b9-c620ecc6f71c.pdf?v=6849642604217625643",
+  "brand": "stegbar",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "ba5ac807a053": {
+  "rid": "375860d938fa45d197f806d9a44db144",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/8329_shaped-mirror-catalogue.pdf?v=18406562031140994969",
+  "brand": "stegbar",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "6eda904afda6": {
+  "rid": "SKIP",
+  "url": "https://aneetawindows.com.au/download/brochures/Joinery Profiles_0.pdf",
+  "brand": "aneeta",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "82ab4866cd90": {
+  "rid": "0bbf6562bbd8427282fa06ac9f54b367",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/stegbar-residential-aluminium-windows-and-doors-brochure2_d24a8e89-7969-4cdd-98e3-28fe95fb629e.pdf?v=17327519983579528328",
+  "brand": "stegbar",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "0220b28c933c": {
+  "rid": "50b9b1c5e4f8486e9f750ec2fd338738",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/8300_commercial-aluminium-brochure_4ba30d0b-5c7c-490f-82f2-8a7b8905fb30.pdf?v=12671741367210774972",
+  "brand": "stegbar",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "98551e077aef": {
+  "rid": "e959f565e2e349fe8ceb8d6616b3e662",
+  "url": "https://www.breezway.com.au/ventilation-cpd/",
+  "brand": "breezway",
+  "doctype": "brochure",
+  "kind": "link"
+ },
+ "fe9129472e23": {
+  "rid": "dfc9738a9fe44b3e8ae93691d1e7d9ca",
+  "url": "https://www.breezway.com.au/media/breezway-louvre-windows-featured-on-dream-home-ideas/",
+  "brand": "breezway",
+  "doctype": "brochure",
+  "kind": "link"
+ },
+ "87b6ea179efb": {
+  "rid": "5c511d2363154fa686db062f9364c7d9",
+  "url": "https://www.breezway.com.au/media/breezway-louvre-windows-featured-on-dream-home-ideas-2/",
+  "brand": "breezway",
+  "doctype": "brochure",
+  "kind": "link"
+ },
+ "91c83f23c4cf": {
+  "rid": "ab995ecb1bfa4c2abbcf688a3cb4c9a6",
+  "url": "https://www.breezway.com.au/cpd-webform-test/",
+  "brand": "breezway",
+  "doctype": "brochure",
+  "kind": "link"
+ },
+ "f16e4f64d248": {
+  "rid": "d58dd2aa33dc433dbea5aafede52e0c2",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/8343_aneeta-sashless-window-brochure_226e948b-4ffa-4d9d-9ab8-536cfd69f7f1.pdf?v=9731920892993169795",
+  "brand": "stegbar",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "1d61f40a7815": {
+  "rid": "03f2fdd9fd8c4b18a648f942e3575429",
+  "url": "https://www.breezway.com.au/confirmation-cpd/",
+  "brand": "breezway",
+  "doctype": "brochure",
+  "kind": "link"
+ },
+ "053a8ecde809": {
+  "rid": "a93af36e0ab344289c50e9affa27125d",
+  "url": "https://www.trendwindows.com.au/pages/brochures-and-downloads",
+  "brand": "trend",
+  "doctype": "brochure",
+  "kind": "link"
+ },
+ "33954bf373fa": {
+  "rid": "e590947793204f5d98b54e795640a4c7",
+  "url": "https://www.breezway.com.au/ascpd/",
+  "brand": "breezway",
+  "doctype": "brochure",
+  "kind": "link"
+ },
+ "ee2b3a695233": {
+  "rid": "74c375da7d4a40109b76b54bf61d6fe1",
+  "url": "https://www.regencyscreens.com.au/pages/brochures",
+  "brand": "regency",
+  "doctype": "brochure",
+  "kind": "link"
+ },
+ "5afc5433853a": {
+  "rid": "77207152cfbe4fe6b50275ca3e126777",
+  "url": "https://www.breezway.com.au/downloads/australia/Dualair_System_Assembly_Instructions_for_Alspec_Framing.pdf",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "4186264f73fe": {
+  "rid": "1d1c5ffa19ac4a46a7e9fb74b4de771d",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_CPD_Tutorials.pdf",
+  "brand": "breezway",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "17970d5f10cd": {
+  "rid": "SKIP",
+  "url": "https://aneetawindows.com.au/download/brochures/Q&amp;O_Form_Aluminium.pdf",
+  "brand": "aneeta",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "8174031cf6ec": {
+  "rid": "934b7da6af354aed821d5cdd3f26f3df",
+  "url": "https://www.breezway.com.au/downloads/australia/AGWA-Guide-Installation.pdf",
+  "brand": "breezway",
+  "doctype": "installation",
+  "kind": "file"
+ },
+ "3989eca3df6b": {
+  "rid": "SKIP",
+  "url": "https://aneetawindows.com.au/download/brochures/Q&amp;O_Form_Timber.pdf",
+  "brand": "aneeta",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "19357f74a8da": {
+  "rid": "33084539bf5446f79318c2812c7232eb",
+  "url": "https://www.breezway.com.au/downloads/australia/TB_Updating_Powerlouvre_to_Apptivate_Advance_Control_Unit.pdf",
+  "brand": "breezway",
+  "doctype": "technical",
+  "kind": "file"
+ },
+ "bb39816db3d8": {
+  "rid": "2483ee12e0664bb2bf1e3ffd1a303bae",
+  "url": "https://www.breezway.com.au/downloads/australia/Advisory-note-protection-of-openable-windows.pdf",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "a430c889bde0": {
+  "rid": "DUP",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/cm-wardrobes-stegbar.pdf?v=1767162446",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "82cc2f3882cc": {
+  "rid": "3348e9ecb1ad4445a8acdea18e4c0826",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/Stegbar_Galleria_Built-in_Wardrobes_BIR08_v2_July_2025_b1769032-1b31-4562-b64b-9db0fa3fcd5f.pdf?v=1781665202",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "f805d7ea1997": {
+  "rid": "2fe1aedc4cf44f6e8f8067307064c182",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/Stegbar_Galleria_Built-in_Wardrobes_BIR06_v2_July_2025_98463dba-674d-4ac7-bf77-a74162a14857.pdf?v=1781665203",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "12d0c38693af": {
+  "rid": "02f74d2d8db94fddbf3a5c0f8ed60eba",
+  "url": "https://www.breezway.com.au/downloads/australia/AGWA_Corner_Windows.pdf",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "1e7a1cb85041": {
+  "rid": "98d7d78a65df4c069ecf50ee837c1cbb",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/Stegbar_Galleria_Built-in_Wardrobes_BIR05_v2_July_2025_2989e9b4-08b2-4c6f-9753-fa29a1c3cc74.pdf?v=1781665202",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "ea0dd89e8a60": {
+  "rid": "9f057213871b4645a65ecedeeb1aa76f",
+  "url": "https://cdn.shopify.com/s/files/1/0768/1284/5287/files/Stegbar_Galleria_Built-in_Wardrobes_BIR4.9_v2_July_2025_3b921069-97bd-4149-8e09-6785e4fec30c.pdf?v=1781665203",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "214cf48559e7": {
+  "rid": "506a08c831384e18bde91e41d9da7616",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/134451_stegbar-grange-slider-flyer.pdf?v=5444833883381295272",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "33b222120968": {
+  "rid": "383ee7beacd54b8ea190a3800f131f0e",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/stegbar-frameless-shower-screen-flyer.pdf?v=3603237158031657929",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "cb64937a59d7": {
+  "rid": "4889320bbf3f42c988a730e109c426a9",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/103735_stegbar-ex-hybrid-slimine-aluminium-awning-window.pdf?v=8696282833135098926",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "9cad5a2bdc13": {
+  "rid": "d931bb23d2b840909b64a25827e24cba",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/116633_aqua-series-by-stegbar_2671e173-1f83-46f6-ac6b-2cd65ee803bf.pdf?v=9744989775491338964",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "b552d6b03de2": {
+  "rid": "a52b89d6312b42a882ea6d2c9320d94c",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/141240_stenat0057-0925-ex-hybrid-alumiere-sliding-and-stacking-door.pdf?v=11524095183518584800",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "42ea89bd943c": {
+  "rid": "b355939a3f7043e4a1f82a71ccf5af26",
+  "url": "https://cdn.alwindows.com.au/wp-content/uploads/2024/08/AL-Important-Information.pdf",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "2d1649fe327e": {
+  "rid": "3b4105915c91484995eb2a8b5838a543",
+  "url": "https://cdn.alwindows.com.au/wp-content/uploads/2025/04/AL-Hybrid-Series-Size-Charts-April-2025.pdf",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "93ac202c346a": {
+  "rid": "e133400af3c14b98ad14ab93becac7dc",
+  "url": "https://cdn.alwindows.com.au/wp-content/uploads/2022/04/JELD0472_Aluminium_LightVentilationChart.pdf",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "a916a8a75e27": {
+  "rid": "0be856f68a7c449dbd432a535b9108ce",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/assembly_bifolddoor_mk2.pdf?v=1767857056",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "602dbc99fc6e": {
+  "rid": "SKIP",
+  "url": "https://aneetawindows.com.au/download/cad/timber-frames/VSD 2P6 SS T_2.pdf",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "47c145aeb693": {
+  "rid": "SKIP",
+  "url": "https://aneetawindows.com.au/download/cad/timber-frames/VSD 2P16 SS T_2.pdf",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "f49ddfe1261f": {
+  "rid": "SKIP",
+  "url": "https://aneetawindows.com.au/download/cad/aluminium-frames/2 pane 6mm sashless vertical sliders in aluminium doors SS.pdf",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "2cf5ede3aeed": {
+  "rid": "12224020c2674659aa9032214f13904a",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/botanica-louvre-windows.pdf?v=1767855930",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "143086c7d559": {
+  "rid": "a63198a87fdb479db35a3ce90467aa00",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/fi225---bi-fold-window-instructions---trend.pdf?v=1767855928",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "3f3b1a8b8b57": {
+  "rid": "c298a113b2ef4054b9673aa793a8a8f7",
+  "url": "https://www.ventora.com.au/wardrobes",
+  "brand": "ventora",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "d0f6b684bfce": {
+  "rid": "2b5375716258436ca93d08cb24c8e608",
+  "url": "https://www.ventora.com.au/residential-windows-doors",
+  "brand": "ventora",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "cf67c8675ba4": {
+  "rid": "4fecdc49bc924a579a058b7aaa9d204a",
+  "url": "https://cdn.shopify.com/s/files/1/0958/7274/5843/files/cm-wardrobes-regency.pdf?v=1767344191",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "b24b0df837cd": {
+  "rid": "5db2b101cfdc4132826bea1d725c15e1",
+  "url": "https://ventoraglass.com.au/cdn/shop/files/ventora-group-purchasing-terms--conditions---march-2024.pdf?v=14626432700276367840",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "5a3c0eefb148": {
+  "rid": "7186963d5f9444128b41b0004953154a",
+  "url": "https://www.ventora.com.au/commercial-windows-doors",
+  "brand": "ventora",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "6ef4a3eb5e75": {
+  "rid": "14eb2c6a9b33486fb01e714f5e48f231",
+  "url": "https://www.ventora.com.au/entry-internal-doors",
+  "brand": "ventora",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "b21a58afac7c": {
+  "rid": "ea8198eeed7b4fd19bc45927f9efb274",
+  "url": "https://www.ventora.com.au/architectural-windows",
+  "brand": "ventora",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "1d0e9916c9ea": {
+  "rid": "08aee86dd0784e76b81bf97beb7f0c7e",
+  "url": "https://www.breezway.com.au/want-to-extend-your-outdoor-living-space-open-up-with-breezway-louvre-windows/",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "a04a912673cd": {
+  "rid": "4d87e2c63e7c44a78c5a7b723bb77003",
+  "url": "https://www.breezway.com.au/what-makes-a-breezway-louvre-window-compliant/",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "5b1bed102852": {
+  "rid": "a09d1b13808147398b26c43d1cc5e929",
+  "url": "https://www.breezway.com.au/useable-outdoor-living-space/",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "9ae3c4f65db8": {
+  "rid": "a043f37713cf407e8a8f11b03320134f",
+  "url": "https://www.breezway.com.au/downloads/australia/CSIRO_assessment_of_screens_Breezway_FCO-3026.pdf",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "b778ed7faa3d": {
+  "rid": "d14a7aec3d574a1c82f2938f0e6f7417",
+  "url": "https://www.breezway.com.au/updated-altair-louvre-handle-slots/",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "e06286c5e371": {
+  "rid": "7f8ab4ba32c14a73b54f24e7dd7da888",
+  "url": "https://www.breezway.com.au/two-practical-reasons-why-altair-louvre-windows-should-be-used-in-every-bathroom/",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "a35f4515198f": {
+  "rid": "965f05809c084a78ac0d46e706e5de17",
+  "url": "https://www.breezway.com.au/three-great-benefits-of-positioning-altair-louvre-windows-up-high-and-some-advice-if-you-do/",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "8be0542e53a6": {
+  "rid": "669596c7ee2946ffb0f79f5d28c429e8",
+  "url": "https://www.breezway.com.au/sleep-comfortably-at-night-with-breezway-louvre-windows/",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "9281e8b09e97": {
+  "rid": "d521dd7eaddb47bc9b26bbdee00c3379",
+  "url": "https://www.breezway.com.au/site-service-report-powerlouvre/",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "65843de6f210": {
+  "rid": "8ac299b717b84e4699736d4597962caa",
+  "url": "https://www.stegbar.com.au/products/wardrobe-sliding-door-rollers",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "b97e6578a5bc": {
+  "rid": "6fbe3d5f70b545d5b11cf96a9522c836",
+  "url": "https://www.stegbar.com.au/products/timberaul-sliding-windows",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "41947f5ee116": {
+  "rid": "2d007687fcaf45d3bf6c1cebbf69bb13",
+  "url": "https://www.stegbar.com.au/products/timberaul-sliding-and-stacking-doors",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "130576fc2fc4": {
+  "rid": "edd8ec89ccee428ab94cd7744da27418",
+  "url": "https://www.stegbar.com.au/products/timberaul-hinged-doors",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "16711e752e32": {
+  "rid": "285cdb339c384c698a50287d27862691",
+  "url": "https://www.stegbar.com.au/products/timberaul-fixed-windows",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "4c10127567f1": {
+  "rid": "986824d8cced46aa9d7f1ae69e85ed82",
+  "url": "https://www.stegbar.com.au/products/timberaul-double-hung-windows",
+  "brand": "stegbar",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "94153628520d": {
+  "rid": "18006f969e51473fab49d5c3e5769644",
+  "url": "https://www.alwindows.com.au/size-charts/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "896cb49f7f87": {
+  "rid": "0e15579f574b4b89ac0415b4eb585a1e",
+  "url": "https://www.alwindows.com.au/seeking-innovation/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "8df9958785f4": {
+  "rid": "76d4f39623664a7c9c2162a78cf4544d",
+  "url": "https://www.alwindows.com.au/service-excellence/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "e41ce6f0c20e": {
+  "rid": "cccca93a46464a4a846c41168b6e08ac",
+  "url": "https://www.alwindows.com.au/resources/design-options/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "d6422ac0c1a8": {
+  "rid": "f487115e78104f9c9c7cf0eab2c7ce3d",
+  "url": "https://www.alwindows.com.au/resources/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "dac92cb37a96": {
+  "rid": "aaf37511f93a483c9c8e15abf6063bde",
+  "url": "https://www.alwindows.com.au/products/entry-frames/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "6f2b71b51d7f": {
+  "rid": "28055b51596943cea929468fe21ecd08",
+  "url": "https://www.alwindows.com.au/products/aluminium-windows/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "da96eee3c46b": {
+  "rid": "fb77e0b571a64ed8bb484bc6a4f2692e",
+  "url": "https://www.alwindows.com.au/products/aluminium-doors/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "9c8523607ab8": {
+  "rid": "f8ff3605d0ba4b188a3fc80ac5c19efb",
+  "url": "https://www.alwindows.com.au/product/screening-solutions/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "4a8f9f636168": {
+  "rid": "5dbe4a53b82340edb5e61b09523a63ce",
+  "url": "https://www.alwindows.com.au/product/boutique-aluminium-sliding-doors/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "43515ee6f143": {
+  "rid": "3d1a65723c28495d9c10661a8a6eeced",
+  "url": "https://www.alwindows.com.au/product/entry-frames/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "a8e79b4fde4c": {
+  "rid": "2754c35feda842ad9ae2cb6d0e527163",
+  "url": "https://www.alwindows.com.au/product/boutique-aluminium-sashless-windows/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "f1d683ec9eed": {
+  "rid": "261c35b1796948b1a80e7a517efdd48e",
+  "url": "https://www.alwindows.com.au/product/boutique-aluminium-french-doors/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "ed8e95d4bea7": {
+  "rid": "c914743f410a47d2bc64e613cf007fa2",
+  "url": "https://www.alwindows.com.au/product/boutique-aluminium-fixed-windows/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "63c86148d127": {
+  "rid": "32bc6d34453f44ed9f649a047abfaa61",
+  "url": "https://www.alwindows.com.au/product/boutique-aluminium-corner-sliding-doors/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "44832cfc0c31": {
+  "rid": "770ab5939cac42eaab128ee51e2488a4",
+  "url": "https://www.alwindows.com.au/product/boutique-aluminium-corner-windows/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "763f5de27fd8": {
+  "rid": "ce58dd8ad4e7460f9924d323342ac015",
+  "url": "https://www.alwindows.com.au/product/boutique-aluminium-corner-bifold-doors/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "3bb11348236e": {
+  "rid": "cea32cdd3e0d4c7587c154d1a1bcd30d",
+  "url": "https://www.alwindows.com.au/product/boutique-aluminium-bifold-windows/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "dcad17333208": {
+  "rid": "605a98fd258a4132b40103a3eaa94ba9",
+  "url": "https://www.alwindows.com.au/product/boutique-aluminium-bifold-doors/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "cf460b71b3c2": {
+  "rid": "f1ef9a87664a451ab89796b3ab0b323f",
+  "url": "https://www.alwindows.com.au/product/boutique-aluminium-awning-windows/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "8c62201cf1f8": {
+  "rid": "9d590d1c329342139f35e3e6b63d85f1",
+  "url": "https://www.alwindows.com.au/product/aluminium-sliding-windows/",
+  "brand": "alwindows",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "da33bbd72c74": {
+  "rid": "c2bdab924c484cb18af4a48a99672527",
+  "url": "https://www.trendwindows.com.au/products/thermares-sliding-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "6816919739e4": {
+  "rid": "23b39b12020b4079b6ae372511293dce",
+  "url": "https://www.trendwindows.com.au/products/thermares-sliding-and-stacking-doors",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "dfe1ce2e7671": {
+  "rid": "SKIP",
+  "url": "https://www.breezway.com.au/downloads/australia/0456p_BREEZWAY_louvre_windows_Apr25.pdf",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "38f48983d078": {
+  "rid": "ba753aec2758403d8ec9b2a7a12ca8ac",
+  "url": "https://www.trendwindows.com.au/products/thermares-fixed-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "fdab23b41db3": {
+  "rid": "7142a1d2a35d4001abebaf0b88a2cd8c",
+  "url": "https://www.trendwindows.com.au/products/thermares-awning-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "2a810a504735": {
+  "rid": "db69e1b3128f48748147a0f233349197",
+  "url": "https://www.trendwindows.com.au/products/thermaarc-windows-and-doors",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "a5d3fa594c4e": {
+  "rid": "acbbcbb75d3a40c7a7bc68fe2b995a06",
+  "url": "https://www.trendwindows.com.au/products/thermaarc-sliding-and-stacking-doors",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "1b1671f67caf": {
+  "rid": "cf607b41f2d04ba4a316e2a16e57f316",
+  "url": "https://www.trendwindows.com.au/products/thermaarc-hinged-door",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "484c33c27bf1": {
+  "rid": "8736ab7357154e6aa9bc0f7ebb712384",
+  "url": "https://www.trendwindows.com.au/products/thermaarc-fixed-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "7399a03c5092": {
+  "rid": "0f940d3608564c77bf73e3958bbb56d1",
+  "url": "https://www.trendwindows.com.au/products/thermaarc-awning-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "871319d02791": {
+  "rid": "8c39fe2796fe434aa52b27cdc213ae7e",
+  "url": "https://www.trendwindows.com.au/products/synergy-stacking-doors",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "547197c611d4": {
+  "rid": "073e2cd3e5e645ada825168e97727995",
+  "url": "https://www.trendwindows.com.au/products/synergy-sliding-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "6ef2738f83f9": {
+  "rid": "4c1735346cba43e1bd0919327c498bf6",
+  "url": "https://www.trendwindows.com.au/products/synergy-sliding-doors",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "9fe3eae4eaef": {
+  "rid": "9eb29aa93f0d46dcae31955c4a7babf6",
+  "url": "https://www.trendwindows.com.au/products/synergy-double-hung-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "745ecd2b519f": {
+  "rid": "7a8300f181fa47569becf0e9b75bcea5",
+  "url": "https://www.trendwindows.com.au/products/synergy-fixed-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "af1360800d35": {
+  "rid": "8e798344004f4a70baf093b57e1b8a4d",
+  "url": "https://www.trendwindows.com.au/products/synergy-bay-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "82771b70ad9c": {
+  "rid": "cf4f1f389a5e4f199b222950bedf16ad",
+  "url": "https://www.trendwindows.com.au/products/synergy-awning-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "47de9b90be9f": {
+  "rid": "2febc828fc8e45058ddbda309a2c62b2",
+  "url": "https://www.trendwindows.com.au/products/quantum-sliding-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "fbcde4a0b938": {
+  "rid": "893193111ec046ff9b2423afa9308fe0",
+  "url": "https://www.trendwindows.com.au/products/quantum-sliding-and-stacking-doors",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "b0f54b5a31af": {
+  "rid": "2804e7291c48470885837b41e6d738c6",
+  "url": "https://www.trendwindows.com.au/products/quantum-servery-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "c1196ecc1461": {
+  "rid": "3266e06fe12541a184efb12c63486ffd",
+  "url": "https://www.trendwindows.com.au/products/quantum-cavity-stacking-doors",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "a28115757a17": {
+  "rid": "d0e09365c21e47f69ad17c1bf8b10259",
+  "url": "https://www.trendwindows.com.au/products/quantum-hinged-doors",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "9f9ac11d37ae": {
+  "rid": "9fed7bd3957a45b7bc9b0bfb047f7f1b",
+  "url": "https://www.trendwindows.com.au/products/quantum-fixed-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "94252a22eddf": {
+  "rid": "08036730dd0c4e3688c404b23d3dcfbe",
+  "url": "https://www.trendwindows.com.au/products/quantum-casement-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "7e0fbc054146": {
+  "rid": "20247db7d8f64287b299d2aaaf657cd0",
+  "url": "https://www.trendwindows.com.au/products/quantum-breezway-louvre-windows",
+  "brand": "trend",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "6907be99679b": {
+  "rid": "cbe04bb96547481e93373ef5920454bb",
+  "url": "https://www.corinthian.com.au/my-doors/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "4996376b4ca7": {
+  "rid": "3db0e69986b04811b2dfb403e1081ffa",
+  "url": "https://www.corinthian.com.au/wardrobes/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "077968908cdb": {
+  "rid": "1a8abfc480eb43168e3371e085a6090c",
+  "url": "https://www.corinthian.com.au/how-to-buy-corinthian-doors/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "89273a6dbe7d": {
+  "rid": "c538682c15dd460cb24e9bb687d699c3",
+  "url": "https://www.corinthian.com.au/doors/veneer/vurb-4/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "c496cbb210a6": {
+  "rid": "a8c9515f5617493dae8d5be22e6d444c",
+  "url": "https://www.corinthian.com.au/doors/veneer/vurb-2/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "e3eb226f41da": {
+  "rid": "1a77995c9e034d0eae7789e246aebc91",
+  "url": "https://www.corinthian.com.au/doors/veneer/vurb-1/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "d431389bc950": {
+  "rid": "4d7da03219bf4ddd86452dbf753fefe6",
+  "url": "https://www.corinthian.com.au/doors/veneer/vurb-104/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "86418e759835": {
+  "rid": "ec253eaca0844416a3996dd46b4be2b5",
+  "url": "https://www.corinthian.com.au/doors/veneer/vurb-101/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "92cd63af9e57": {
+  "rid": "1fc3bb1ad91048778f3edb495d72b405",
+  "url": "https://www.corinthian.com.au/doors/veneer/vurb-04/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "a2ae894b0248": {
+  "rid": "4adfabe3335447db9e6edb45acaded44",
+  "url": "https://www.corinthian.com.au/doors/veneer/vslm-208/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "f22c4628acdd": {
+  "rid": "d5efab493afd40148758ce605be41cda",
+  "url": "https://www.corinthian.com.au/doors/veneer/vslm-204/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "0b783c8efaf5": {
+  "rid": "a81ab972bcd04fb0ade0dee784997875",
+  "url": "https://www.corinthian.com.au/doors/veneer/vslm-201/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "ebf51b216fd6": {
+  "rid": "6ca0ee15684e4305a734b3203b99a175",
+  "url": "https://www.corinthian.com.au/doors/veneer/vslm-202/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "b6719ec97c22": {
+  "rid": "6d949e3da0cb4638b8578a53a6d28d9e",
+  "url": "https://www.corinthian.com.au/doors/veneer/vsc-4g/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "2c4a5453b444": {
+  "rid": "5cf9e200a699405f9563f239333a3d90",
+  "url": "https://www.corinthian.com.au/doors/veneer/vsc-1/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "9665284ac4cf": {
+  "rid": "aa9bb049be694fc98f0042dd8b2a1f99",
+  "url": "https://www.corinthian.com.au/doors/veneer/vsc-4/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "6e98d036d999": {
+  "rid": "2bd7c268d5ac4a6a84852cbe31e866d1",
+  "url": "https://www.corinthian.com.au/doors/veneer/vru-sl-104/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "4bc900050b2f": {
+  "rid": "d22b14461503433c9e0b1a407c313b22",
+  "url": "https://www.corinthian.com.au/doors/veneer/vru-sl-101/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "0dad5c4ce734": {
+  "rid": "5252653b4a914719a81bee0c3fc49146",
+  "url": "https://www.corinthian.com.au/doors/veneer/vru-7/",
+  "brand": "corinthian",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "c02ca4e9c2af": {
+  "rid": "d17358304d8e4ae5a1f9a1d9187c45ba",
+  "url": "https://aneetawindows.com.au/products/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "3a32e5f037b9": {
+  "rid": "879c012acec946ebacfeef74874d6ff3",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-9/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "7934d7b11960": {
+  "rid": "ebd32895e1ce4a42a1f4721bf222acef",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-8/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "0c5430d21e75": {
+  "rid": "187123330e65465f8d2cfe3eb69bae47",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-7/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "4751f359e377": {
+  "rid": "db73b3677026489c845ffa286e11de6b",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-63/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "97cfd36fd929": {
+  "rid": "8a7aead1a6c7420583c1d59a1cb7c303",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-62/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "dd0cfd92b839": {
+  "rid": "ebf7aad456874e35b0803f8da00d7d38",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-61/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "6fd0b13a8223": {
+  "rid": "10381b5d198a4ff3a432d3fe99466287",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-6/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "5ad6a6c021b1": {
+  "rid": "33fdafa109fb4ccb98f67cef886b4a29",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-59/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "92c820406652": {
+  "rid": "22f201ceb6bd47a88e96589d13572b89",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-58/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "65486699beff": {
+  "rid": "fc99b47e6edc4688a4987731bc541b62",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-57/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "e94fd3c968d4": {
+  "rid": "41bd95fc1b784785badc7eed808cab43",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-56/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "3083553423a2": {
+  "rid": "973786f6707e4dc79707294b3e67b05a",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-54/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "6e854d384341": {
+  "rid": "f2e3d3442c5647f78be918c492adfa22",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-53/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "7e6aa0e7a676": {
+  "rid": "462825f819af4cb29d48b39b33173f02",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-52/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "94a479ccc4af": {
+  "rid": "8a4d63738dbf4d6abc604d2455d09dde",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-5/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "38c2d62b2429": {
+  "rid": "1ad8a6e5c5834d40b65d02c6e127206a",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-49/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "eb51315559a1": {
+  "rid": "636f270a2d6e4ba3bcb3f2b64b6fd373",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-50/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "e64235020637": {
+  "rid": "edde0026fe324a1b95198bec7da87cf0",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-47/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "f4b0bd7d4a27": {
+  "rid": "0878505dcb474f22a4956a5ff95ea303",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-48/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "043a4a8f196b": {
+  "rid": "c5acfc378cc64be1963591ab5b617748",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-46/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "935891c34be1": {
+  "rid": "44634c25f95f43c196d7f2375f27e727",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-44/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "9b1817438a45": {
+  "rid": "d970393a01db4d38a7dc2e2c3e94374a",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-45/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "64a8a18b5662": {
+  "rid": "3c5035e2612a40b48076980a9980cd8e",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-42/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "0ed18f8f4cd3": {
+  "rid": "eb52eb186c6c4adf97e2623458cae92d",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-43/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "bd5a08f34b71": {
+  "rid": "ce5cf0b746c64ad689281c8150287e68",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-39/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "9930e625311f": {
+  "rid": "2c3116fd443e4d958c1600197a603dcb",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-41/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "b394638f3949": {
+  "rid": "ea4f9bd9459e456a988cd135b6bf22ac",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-38/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "bfab1eb6b7fe": {
+  "rid": "745b9d1b47d44da481399f944da8647b",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-35/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "d4ca0492acca": {
+  "rid": "55751800cba04d19b93d854437f720a2",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-37/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "a0ee84ddcf0c": {
+  "rid": "12c357c90fd24d3483382d36e1c5ae4c",
+  "url": "https://www.regencyscreens.com.au/products/shaped-mirrors",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "7fde4fa83b68": {
+  "rid": "33ba851e04714f339b2b1f4b25a38d53",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-34/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "4817fbbeaf8a": {
+  "rid": "034f4b803e014f61ab562bb42bbe7114",
+  "url": "https://aneetawindows.com.au/picture/aneeta-windows-vertical-single-glazed-window-32/",
+  "brand": "aneeta",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "ae6142a57a05": {
+  "rid": "0c06055080624b21a51fad5e9fc73fb9",
+  "url": "https://www.regencyscreens.com.au/products/metallic-collection",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "b2b0258f3310": {
+  "rid": "a94cb620660643429d38192c7e505fa0",
+  "url": "https://www.regencyscreens.com.au/products/mirror-collection",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "ed30be7a5289": {
+  "rid": "97beb20dc0b6445486b44fea79a655cf",
+  "url": "https://www.regencyscreens.com.au/products/galleria-wardrobe-collection",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "0a2881a645b7": {
+  "rid": "df8ab12af05f4ee7a5f1d1dbad356234",
+  "url": "https://www.regencyscreens.com.au/products/hinged-wardrobe-doors",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "57d90a548f7d": {
+  "rid": "a2a237f4d10540fb90c394d4f075583e",
+  "url": "https://www.regencyscreens.com.au/products/frameless-sliding-wardrobe-doors",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "d1b50216efd3": {
+  "rid": "c2b96b9d8f6f4e08b5756329bf8b156b",
+  "url": "https://www.regencyscreens.com.au/products/galleria-shaker-doors",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "ba1c46e0787d": {
+  "rid": "44c6886042f84fc99bcd0fd4e34fd81f",
+  "url": "https://www.regencyscreens.com.au/products/hiro-sliding-doors",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "01b018cf54ba": {
+  "rid": "b1b572afa05d4725b109f4be3a13ed42",
+  "url": "https://www.regencyscreens.com.au/products/frameless-shower-screens",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "b73f44b1f839": {
+  "rid": "917cf4d30d0440309c94686da7ed9b46",
+  "url": "https://www.regencyscreens.com.au/products/frameless-mirrors",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "f2dedbdc38e0": {
+  "rid": "6d5249caee25453ea1587362705b4a77",
+  "url": "https://www.regencyscreens.com.au/products/colour-collection",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "a726c34f089f": {
+  "rid": "4ceb7be748d949c0b2b0d848ff609157",
+  "url": "https://www.regencyscreens.com.au/products/framed-sliding-wardrobe-doors",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "dca65c6498df": {
+  "rid": "2a5b73c22ad6492486b040332dc513cb",
+  "url": "https://www.regencyscreens.com.au/products/framed-mirrors",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "f53cb7e7c1a7": {
+  "rid": "5d62168df6d441868bda3c3f05d5c55c",
+  "url": "https://www.regencyscreens.com.au/products/aqua-series-overlap",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "990e4b57b169": {
+  "rid": "d2451bbaa6be42f1b64be4f62adecd99",
+  "url": "https://www.regencyscreens.com.au/products/aqua-slider",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "7826fe502218": {
+  "rid": "e312603e60ce463d8cc5ffbb36986330",
+  "url": "https://www.regencyscreens.com.au/products/aqua-series-inline",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "c1508adaad0c": {
+  "rid": "fc7a0055cc454512a3de441b5190955f",
+  "url": "https://www.regencyscreens.com.au/pages/zen-bathroom",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "eec6452e2e81": {
+  "rid": "5b4134a2459d4c29a634574507fc850b",
+  "url": "https://www.regencyscreens.com.au/pages/yatala",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "23eaeaf4a243": {
+  "rid": "62ad805ca7364a96a4e637ef881133b1",
+  "url": "https://www.regencyscreens.com.au/pages/walnut-wardrobe",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "0f567011438f": {
+  "rid": "0f922123e4d14eee9a4763a65221008b",
+  "url": "https://www.regencyscreens.com.au/pages/scandi-style",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "d9988d021052": {
+  "rid": "0fc5f453ac2f466f9328733487e0a334",
+  "url": "https://www.regencyscreens.com.au/pages/what-to-expect-in-a-galleria-consultation",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "045f554db8cf": {
+  "rid": "afec8f84e8e6415cb54bbb61841fbc6d",
+  "url": "https://www.regencyscreens.com.au/pages/super-cool-ensuite",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "62a982ff33d0": {
+  "rid": "c89e92207cda4810812ef3a1699888f5",
+  "url": "https://www.regencyscreens.com.au/pages/spring-sale",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "c201544e2088": {
+  "rid": "a101da3ab6f04af08cebcd5806623f8a",
+  "url": "https://www.regencyscreens.com.au/pages/relaxed-vibe",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "3051ea2d34e7": {
+  "rid": "3b1482b9c6864dd393ca128076e7b39e",
+  "url": "https://www.regencyscreens.com.au/pages/resources",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "2a94070f51d6": {
+  "rid": "2a7708e0c51649188fcf4d2e4cae5c56",
+  "url": "https://www.regencyscreens.com.au/pages/regency-regency-park",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "da7f0459b18f": {
+  "rid": "b4540d6b8bbf4496993f714e3d791873",
+  "url": "https://www.regencyscreens.com.au/pages/regency-coffs-harbour",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "7d4b515fc5f1": {
+  "rid": "c04fb792fcd3492ebd4287862ccf731e",
+  "url": "https://www.regencyscreens.com.au/pages/regency-shepparton",
+  "brand": "regency",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "0aa3c9ca1427": {
+  "rid": "dfafd6e3913d4818a7dd4ac7df609682",
+  "url": "https://ventoraglass.com.au/products/toughened-glass-safe-stylish-amp-compliant",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "e2349ff054a5": {
+  "rid": "5782aaedb35c487fb96a675110005448",
+  "url": "https://ventoraglass.com.au/products/simplee-pro-max",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "059588fd7802": {
+  "rid": "3225290151414921a320857941c32630",
+  "url": "https://ventoraglass.com.au/products/simplee-pro-1",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "cfc3ead40533": {
+  "rid": "e0936d0e674c4fdd9b941b6562090c9e",
+  "url": "https://ventoraglass.com.au/products/simplee-neutral",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "0e10b9e791fc": {
+  "rid": "beb1588276f541d392a43a3c8a5f8a19",
+  "url": "https://ventoraglass.com.au/products/simplee-pro",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "6338466d687a": {
+  "rid": "83e3c343db0d444c8794106ee047b296",
+  "url": "https://ventoraglass.com.au/products/simplee-lam",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "af7db7bbc714": {
+  "rid": "c2c1450871024ebfa3668d132b920848",
+  "url": "https://ventoraglass.com.au/products/simplee-grey",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "fee4534a3e52": {
+  "rid": "5d6c0cbbc0954c019fdc99da7e6fa053",
+  "url": "https://ventoraglass.com.au/products/painted-glass-sleek-modern-easy-to-maintain",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "3d5bbf653a10": {
+  "rid": "2781395ba1824a63915d1fbe7ce10402",
+  "url": "https://ventoraglass.com.au/products/simplee",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "7c3c34b89af1": {
+  "rid": "565f58fea61048f2af5c9b96ded705b3",
+  "url": "https://ventoraglass.com.au/products/simplee-grey-1",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "b16196c2cb8a": {
+  "rid": "2debfbbdb8a1475fabf31fe58561e46e",
+  "url": "https://ventoraglass.com.au/products/mirror-glass",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "bbfec4677784": {
+  "rid": "da31761674fc4dd7941cf39024bb75ce",
+  "url": "https://ventoraglass.com.au/products/laminated-glass-safe-quiet-uv-options",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "da22b3ddcf5f": {
+  "rid": "b5c7fe9051ee4cc7bb8fe1f860ce646d",
+  "url": "https://ventoraglass.com.au/products/float-glass-clear-adaptable-essential",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "ce3f73863716": {
+  "rid": "f9bb5374a5f94d98b0b6105e4235ef7b",
+  "url": "https://ventoraglass.com.au/products/float-double-glazed-glass",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "9acbe135b5ce": {
+  "rid": "3689943eb74a4acfa60c236f29de0c9c",
+  "url": "https://ventoraglass.com.au/products/double-glazed-pattern-toned",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "f12900a7a200": {
+  "rid": "79d96f087e4b450fbb409665a1136412",
+  "url": "https://ventoraglass.com.au/products/double-glazed-laminated-glass-safe-quiet-uv-options",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "ebc817889bdb": {
+  "rid": "912ee621866742bca17678fc1663e314",
+  "url": "https://ventoraglass.com.au/pages/trade-enquiry-submitted",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "ec3e66155ca3": {
+  "rid": "36abf7f450db4829a2800d92d15ff9c6",
+  "url": "https://ventoraglass.com.au/pages/tax-strategy-statement",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "f81d53f9295e": {
+  "rid": "026dd10d3fe74daca5d39647b32d62c0",
+  "url": "https://ventoraglass.com.au/pages/supplier-code-of-conduct",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "5fcf02f96fdf": {
+  "rid": "6b88e87861ff4b579e5a2c94f9c7e3fa",
+  "url": "https://ventoraglass.com.au/pages/thank-you",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "f2dba00c5498": {
+  "rid": "dac74ac733bf4bcbbc74703dbbca3fd7",
+  "url": "https://ventoraglass.com.au/pages/resources",
+  "brand": "ventoraglass",
+  "doctype": "product",
+  "kind": "link"
+ },
+ "229db99a07a0": {
+  "rid": "399d6d31be544910a74fcbfa34eac57b",
+  "url": "https://www.ventora.com.au/our-values",
+  "brand": "ventora",
+  "doctype": "corporate",
+  "kind": "link"
+ },
+ "74dfda20eda9": {
+  "rid": "38d133efb4fb4393841c0a1812e848dd",
+  "url": "https://www.ventora.com.au/our-story",
+  "brand": "ventora",
+  "doctype": "corporate",
+  "kind": "link"
+ },
+ "8f06faa517a4": {
+  "rid": "e70a5a88299d4f338d2e833fcfd124ab",
+  "url": "https://www.ventora.com.au/credit-application",
+  "brand": "ventora",
+  "doctype": "corporate",
+  "kind": "link"
+ },
+ "b08a73d7f1cc": {
+  "rid": "b815b7afac89485cb551a289bb58d653",
+  "url": "https://www.ventora.com.au/our-culture",
+  "brand": "ventora",
+  "doctype": "corporate",
+  "kind": "link"
+ },
+ "489100748748": {
+  "rid": "af22b506da9e4e8ebc676c83853266f9",
+  "url": "https://www.ventora.com.au/contact",
+  "brand": "ventora",
+  "doctype": "corporate",
+  "kind": "link"
+ },
+ "1f22043060b7": {
+  "rid": "9fa7a51328dd4249b9014876d14a0d5b",
+  "url": "https://www.breezway.com.au/downloads/australia/0456p_BREEZWAY_louvre_windows_Apr26.pdf",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "222a9bdb01e8": {
+  "rid": "5d6fcbab339f43b38e21705bb3b16322",
+  "url": "https://www.breezway.com.au/downloads/australia/Dualair_System_Frame_Sill_Jamb_PreProcessing.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "ab22d6a45974": {
+  "rid": "afb4bd99c2b7475f95f87b67e2ffd021",
+  "url": "https://www.breezway.com.au/downloads/australia/Innoscreen_Cavity_Brick_and_Brick_Veneer_150116.pdf",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "8d1a251b4864": {
+  "rid": "d0f3013a6417435a8379769dde6b68bd",
+  "url": "https://www.breezway.com.au/downloads/australia/Innoscreen_Weatherboard_on_70mm_Studs_150116.pdf",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "77626f1e46a7": {
+  "rid": "492a7b19b37b4042972d7bea00b24b42",
+  "url": "https://www.breezway.com.au/downloads/australia/Dualair_System_Frame_Head_PreProcessing.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "1095637ba1bc": {
+  "rid": "SKIP",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_EBSA_Case_Study.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "950861309a14": {
+  "rid": "f994805ecbe847edb8a827d63c209036",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_Ventilation_Whitepaper.pdf",
+  "brand": "breezway",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "67b1c5e2935d": {
+  "rid": "536920637e444bef9df2e2001e72fd8e",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_Ideas_Book_Brochure.pdf",
+  "brand": "breezway",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "666743b64275": {
+  "rid": "4ee9d2d70619447ca7fd644aa26ffbfa",
+  "url": "https://www.breezway.com.au/downloads/australia/Powerlouvre_Brochure.pdf",
+  "brand": "breezway",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "d1e5d98303a4": {
+  "rid": "389a916fea4a4c76b6ea961983f6f325",
+  "url": "https://www.breezway.com.au/downloads/australia/IGLU_System_Brochure.pdf",
+  "brand": "breezway",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "9d88b2668a18": {
+  "rid": "f187547cc6a94b14b0d0dc59b4bcb64b",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/122108_ex-hybrid-flyer_0a5efe08-473a-409c-acd1-91b6e4ddd14a.pdf?v=17925265721244964665",
+  "brand": "stegbar",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "4df957bccde8": {
+  "rid": "d45165b03acd457db30eac84359c0b29",
+  "url": "https://aneetawindows.com.au/download/brochures/Aneeta_Brochure_01072024f.pdf",
+  "brand": "aneeta",
+  "doctype": "brochure",
+  "kind": "file"
+ },
+ "9162cdff7775": {
+  "rid": "5ada0dde2816416f9afe51ecc0f70ae5",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/Yale_Unity_Smart_Lock_Sheet.pdf?v=5274405317886360390",
+  "brand": "stegbar",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "7387719fabe1": {
+  "rid": "3871433a9cf74a80bf5591c6f06a02dc",
+  "url": "https://www.stegbar.com.au/cdn/shop/files/99401_envira-collection-size-charts_e97a44c1-e255-446b-bb66-f5c78f6b23e5.pdf?v=7348720834202362361",
+  "brand": "stegbar",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "19c8b0871bd7": {
+  "rid": "4fd1e75d705e477f9c36ba12e52b6291",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/quantum2panel.pdf?v=1767857056",
+  "brand": "trend",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "1a6e567448d9": {
+  "rid": "16ed861df4f841628523eae20398da9b",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/roller25feb10.pdf?v=1767857649",
+  "brand": "trend",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "ea24937aa350": {
+  "rid": "4f6a6f6e26354025840dd4fbc974df96",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/quantumstacker3.pdf?v=1767857056",
+  "brand": "trend",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "1f41cbdb5dc7": {
+  "rid": "8805c87741ec4b1cb6737f31677c1698",
+  "url": "https://www.breezway.com.au/downloads/australia/Pocket_Guide.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "8888461e4317": {
+  "rid": "b5b3d7886f884ce98f5bae270bd96f69",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/quantum3panel-ffx.pdf?v=1767857057",
+  "brand": "trend",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "6a291135c08d": {
+  "rid": "31118342e971432088a8c5975956a178",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/quantumstacker6.pdf?v=1767857056",
+  "brand": "trend",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "5cc317cf669b": {
+  "rid": "b7562a3513814b03a369951b644111a2",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/quantum4panel.pdf?v=1767857056",
+  "brand": "trend",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "69969890cecf": {
+  "rid": "53ddeb66688747ae9298b597d4a9a15e",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_Louvres_in_Education_Environments.pdf",
+  "brand": "breezway",
+  "doctype": "product",
+  "kind": "file"
+ },
+ "59e30a9e11e3": {
+  "rid": "fc26c102f27745b7a29e65da831869f2",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/09/11103738/20260218-%E2%80%93-Overhead-protection-Update_v1.0-1-1.pdf",
+  "brand": "corinthian",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "f35b6f07d23c": {
+  "rid": "DUP",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/09/10150347/20260218-%E2%80%93-Overhead-protection-Update_v1.0-1-2.pdf",
+  "brand": "corinthian",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "369800363712": {
+  "rid": "3439cfbe21c14dbd825f2636ea813fa2",
+  "url": "https://cdn.shopify.com/s/files/1/0709/1339/2790/files/quantum3panel-fxf.pdf?v=1767857056",
+  "brand": "trend",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "5d5235e07eb7": {
+  "rid": "DUP",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2026/02/25094351/20260218-%E2%80%93-Overhead-protection-Update_v1.0-1-1.pdf",
+  "brand": "corinthian",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "4e0eb3e9bbff": {
+  "rid": "775a5aebe4df4c369776c6108f36626e",
+  "url": "https://www.ventora.com.au/what-we-offer",
+  "brand": "ventora",
+  "doctype": "page",
+  "kind": "link"
+ },
+ "feddc31b0aa6": {
+  "rid": "d6c1bd2ba6264b458831ec928066a2db",
+  "url": "https://www.ventora.com.au/ventora",
+  "brand": "ventora",
+  "doctype": "page",
+  "kind": "link"
+ },
+ "c41cb60389be": {
+  "rid": "5cdc2056e4474bfdb1368431fb07c660",
+  "url": "https://www.ventora.com.au/trading-terms",
+  "brand": "ventora",
+  "doctype": "page",
+  "kind": "link"
+ },
+ "6af01d606e8c": {
+  "rid": "SKIP",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_Australia_Colour_Guide.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "9471c34e1e66": {
+  "rid": "f11651e90556404783a4b1107564c45c",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2026/06/17105904/CavityKit-Instructions_V7-3.pdf",
+  "brand": "corinthian",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "3942fccde9b3": {
+  "rid": "d9949cf4e3ba42ac8c4bbaffa4687626",
+  "url": "https://www.ventora.com.au/tax-statement",
+  "brand": "ventora",
+  "doctype": "page",
+  "kind": "link"
+ },
+ "72d34a2c6b56": {
+  "rid": "2446a529998340d1b9dc39caa64e6f90",
+  "url": "https://www.ventora.com.au/supplier-tcs",
+  "brand": "ventora",
+  "doctype": "page",
+  "kind": "link"
+ },
+ "aa47efa1f394": {
+  "rid": "83ce16054df2402f829e8a1ba3fc6dba",
+  "url": "https://cdn.corinthian.com.au/wp-content/uploads/2024/07/25233806/Slimline-3000-update0716-LR-CORCNAT0636-224-2.pdf",
+  "brand": "corinthian",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "0b969f7f48af": {
+  "rid": "87430774fa3343918d3c589b3fb78b80",
+  "url": "https://www.ventora.com.au/supplier-information",
+  "brand": "ventora",
+  "doctype": "page",
+  "kind": "link"
+ },
+ "2e6ce2baffa5": {
+  "rid": "b61e253dcdd24fdb9ddde4c748335429",
+  "url": "https://www.ventora.com.au/service",
+  "brand": "ventora",
+  "doctype": "page",
+  "kind": "link"
+ },
+ "7f121cc5165b": {
+  "rid": "d384519d56144d84a9855ba43b4c60c7",
+  "url": "https://www.ventora.com.au/privacy-policy",
+  "brand": "ventora",
+  "doctype": "page",
+  "kind": "link"
+ },
+ "d897fd72d608": {
+  "rid": "beeba55cdd3346c68db16685f7c404c1",
+  "url": "https://www.ventora.com.au/disclaimer",
+  "brand": "ventora",
+  "doctype": "page",
+  "kind": "link"
+ },
+ "f5702d0ceb44": {
+  "rid": "768b21ec2499486e8f643ecabdb2f364",
+  "url": "https://www.ventora.com.au/home",
+  "brand": "ventora",
+  "doctype": "page",
+  "kind": "link"
+ },
+ "6c87a4b1e47d": {
+  "rid": "65331c412f4d4675ac21b5a834fef819",
+  "url": "https://www.ventora.com.au/brands",
+  "brand": "ventora",
+  "doctype": "page",
+  "kind": "link"
+ },
+ "985e5979d712": {
+  "rid": "a9b067bcaf1f49b6bd48cdf83512b71b",
+  "url": "https://www.breezway.com.au/downloads/australia/SL2_Studs_with_Reveal.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "1f692b4a0f5c": {
+  "rid": "37c59a6ee9f44dc18d764765af867177",
+  "url": "https://www.breezway.com.au/downloads/australia/Altair_Australian_Component_Product_Code_List_updated_03062026.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "ca2478bfcc23": {
+  "rid": "94604153c6e34fee9df2b0d374f10ddd",
+  "url": "https://www.breezway.com.au/downloads/australia/Warrington_Fire_Equivalency_Report.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "f909c6cb27df": {
+  "rid": "139ec0701d0741fca6347f18ee444021",
+  "url": "https://www.breezway.com.au/downloads/australia/AGWA-Guide-Fixing.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "1a230c19da6c": {
+  "rid": "c741b3d4329d4fa9a47d8e8bdc4d28b2",
+  "url": "https://www.breezway.com.au/downloads/australia/Dualair_System_Flat_Framing_Assembly_Instructions.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "498f849b2e2e": {
+  "rid": "8a984d9cbb02479d83557586b8150542",
+  "url": "https://www.breezway.com.au/downloads/australia/Apptivate_Advance_Tutorial.pdf?07052025",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "0a5be30bb273": {
+  "rid": "05d1351176254fe1a9994e523b0efb2d",
+  "url": "https://www.breezway.com.au/downloads/australia/Breezway_Dualair_System_Flyer.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "147ac9b5f351": {
+  "rid": "32f7b08550ff406a960330766ce64ddc",
+  "url": "https://www.breezway.com.au/downloads/australia/Apptivate_Advance_Control_Unit_Troubleshooting_AUS.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ },
+ "16f2c706fe23": {
+  "rid": "686ac3ff1d4d44d080f331fe326c9faa",
+  "url": "https://www.breezway.com.au/downloads/australia/stronghold_flyer.pdf",
+  "brand": "breezway",
+  "doctype": "page",
+  "kind": "file"
+ }
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ventora - Windows, doors, glass, wardrobes and showerscreens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Pontano+Sans&display=swap">
+<link rel="stylesheet" href="/static/ventora.css">
+<link rel="icon" href="/static/brand/ventora.png">
+<script>window.CONFIG = __CONFIG__;</script>
+<script src="/static/i18n.js"></script>
+<script src="/static/site.js" defer></script>
+</head>
+<body>
+<main>
+  <section class="hero" style="padding:0">
+    <div class="bg" style="background-image:url('/static/photos/hero-stegbar.jpg')"></div>
+    <div class="wrap">
+      <div class="eyebrow on-dark">Windows · Doors · Glass · Wardrobes · Showerscreens</div>
+      <h1>Bring light, air and space to every project.</h1>
+      <p class="lead">Eight Australian brands, one place to find the right product, the right document and the right people.</p>
+      <form class="invite" id="invite" onsubmit="return false">
+        <input id="invite-input" type="text" placeholder="Tell us what you're building or fixing…" autocomplete="off" aria-label="Ask the concierge">
+        <button class="btn primary" type="submit">Ask</button>
+      </form>
+      <div class="invite-examples">
+        <a href="#" data-open-concierge data-mode="building" data-text="Two-storey home in coastal NSW, BAL-29, aiming for 7 stars. Which sliding doors and louvres suit?">Coastal build, BAL-29, 7 stars</a>
+        <a href="#" data-open-concierge data-mode="renovating" data-text="My sliding door is hard to slide. What can I do and is it covered by warranty?">A door that's hard to slide</a>
+        <a href="#" data-open-concierge data-mode="specifying" data-text="Which louvre windows have BAL-40 test reports and what acoustic performance is documented?">BAL-40 louvres with acoustic data</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal-up"><div><div class="eyebrow">Find your match</div><h2>Start with what you're doing, not with a brand.</h2><p class="muted">Tell the concierge about your project and it brings the right brands, documents and people to you.</p></div></div>
+      <div class="grid three">
+        <div class="card audience reveal-up" data-open-concierge data-mode="building" data-goal="product">
+          <div class="photo"><img src="/static/photos/trend/quantum-sliding-and-stacking-doors.jpg" alt="Quantum sliding and stacking doors opening to a deck" loading="lazy"></div>
+          <div class="body"><h3>I'm building</h3><p>New homes, extensions and multi-residential. Compliance, energy ratings and quotes across every brand in one conversation.</p><span class="tertiary">Start a project conversation</span></div>
+        </div>
+        <div class="card audience reveal-up" data-open-concierge data-mode="renovating" data-goal="problem">
+          <div class="photo"><img src="/static/photos/regency/frameless-shower-screens.jpg" alt="Frameless shower screen in a light bathroom" loading="lazy"></div>
+          <div class="body"><h3>I'm renovating or replacing</h3><p>Match what you have, find the care guide, order spare parts or check the warranty, with a photo if that's easier.</p><span class="tertiary">Get help with what you've got</span></div>
+        </div>
+        <div class="card audience reveal-up" data-open-concierge data-mode="specifying" data-goal="document">
+          <div class="photo"><img src="/static/photos/breezway/altair-louvres-elegant-l-shaped-home-using-minimal-colour.jpg" alt="Altair louvre windows in an architect-designed home" loading="lazy"></div>
+          <div class="body"><h3>I'm specifying</h3><p>Test reports, WERS ratings, acoustic data, fall prevention and installation details, compared across brands and ready to download.</p><span class="tertiary">Specify with confidence</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mist" id="brands">
+    <div class="wrap">
+      <div class="section-head reveal-up"><div><div class="eyebrow">Our brands</div><h2>Distinctive at the front. Connected at the core.</h2></div></div>
+      <div class="grid four" id="brand-grid"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap split">
+      <div class="reveal-up">
+        <div class="eyebrow">For architects, estimators and certifiers</div>
+        <h2 style="margin:12px 0 18px">Specify with confidence.</h2>
+        <p class="lead">Ask a compliance or performance question once and get an answer drawn from test reports, design manuals and rating tables across all eight brands, with every document a click away.</p>
+        <a class="btn primary" href="/specify" style="margin-top:8px">Open the specification desk</a>
+      </div>
+      <div class="photo reveal-up"><img src="/static/photos/hero-al.jpg" alt="Aluminium window fabrication at A&L" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section class="sage-tint tight">
+    <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap">
+      <div class="reveal-up"><div class="eyebrow">Ventora Concierge</div><h2 style="font-size:28px;margin-top:10px">One conversation, in your language, from product to quote.</h2></div>
+      <div class="pill-row reveal-up"><button class="btn primary" data-open-concierge>Ask the concierge</button><button class="btn secondary" data-open-concierge data-goal="quote">Get a quote</button></div>
+    </div>
+  </section>
+</main>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const grid = document.getElementById("brand-grid");
+  grid.innerHTML = V.ORDER.map((s, i) => { const b = V.BR[s]; return `
+    <a class="brand-tile reveal-up" href="/brands/${s}" style="transition-delay:${(i % 4) * 60}ms">
+      <img class="photo" src="${b.hero}" alt="${V.esc(b.what)}" loading="lazy">
+      <div class="reveal"><span class="btn white sm">Explore</span><span class="btn primary sm" data-open-concierge data-brand="${s}">Ask ${V.esc(b.label.split(' ')[0])}</span></div>
+      <div class="plaque"><div class="markbox"><img src="${b.mark}" alt="${V.esc(b.label)}"></div><div class="txt"><b>${V.esc(b.label)}</b><small>${V.esc(b.strapline)}</small></div></div>
+    </a>`; }).join("");
+  grid.querySelectorAll("[data-open-concierge]").forEach(x => x.addEventListener("click", e => { e.preventDefault(); e.stopPropagation(); V.Concierge.open({ brand: x.dataset.brand }); }));
+  const inv = document.getElementById("invite"), inp = document.getElementById("invite-input");
+  inv.addEventListener("submit", () => { V.Concierge.open({ text: inp.value.trim() || null, mode: "building" }); inp.value = ""; });
+  inv.addEventListener("click", e => { if (e.target === inv) inp.focus(); });
+});
+</script>
+</body>
+</html>

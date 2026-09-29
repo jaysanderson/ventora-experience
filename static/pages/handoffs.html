@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Handoffs - Ventora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Pontano+Sans&display=swap">
+<link rel="stylesheet" href="/static/ventora.css">
+<link rel="icon" href="/static/brand/ventora.png">
+<script>window.CONFIG = __CONFIG__;</script>
+<script src="/static/i18n.js"></script>
+<script src="/static/site.js" defer></script>
+<style>.ins-hero { background: var(--v-mist); padding: 64px 0 48px; } .ins-hero h1 { font-size: 40px; margin: 12px 0 10px; } details { margin-top: 8px; } summary { cursor: pointer; color: var(--v-green); font-size: 13px; } pre { font-size: 12px; background: var(--v-mist); padding: 12px; border-radius: 4px; overflow: auto; }</style>
+</head>
+<body>
+<main>
+  <section class="ins-hero"><div class="wrap"><div class="eyebrow">Management view</div><h1>Quote and service handoffs.</h1><p class="lead">Every enquiry the concierge completes arrives at the receiving team with its full context. Nothing is re-typed.</p></div></section>
+  <section class="tight"><div class="wrap"><div class="panel"><div style="overflow-x:auto"><table class="data"><thead><tr><th>When</th><th>Kind</th><th>Destination</th><th>State</th><th>Brand</th><th>Summary</th></tr></thead><tbody id="rows"></tbody></table></div></div></div></section>
+</main>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const d = await (await fetch("/api/handoffs")).json();
+  const ft = ts => { const x = new Date(ts * 1000); return x.toLocaleDateString("en-AU", { day: "numeric", month: "short" }) + " " + x.toLocaleTimeString("en-AU", { hour: "2-digit", minute: "2-digit" }); };
+  document.getElementById("rows").innerHTML = d.handoffs.map(h => `<tr><td class="small">${h.synthetic ? "" : '<span class="live-dot"></span>'}${ft(h.ts)}</td><td><span class="tag">${V.esc(h.kind)}</span></td><td>${V.esc(h.destination)}</td><td>${V.esc(h.state || "")}</td><td>${V.esc(h.brand || "")}</td><td>${V.esc(h.summary || "")}<details><summary>Full context</summary><pre>${V.esc(JSON.stringify(h.payload, null, 1))}</pre></details></td></tr>`).join("");
+});
+</script>
+</body>
+</html>

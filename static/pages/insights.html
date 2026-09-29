@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experience insights - Ventora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Pontano+Sans&display=swap">
+<link rel="stylesheet" href="/static/ventora.css">
+<link rel="icon" href="/static/brand/ventora.png">
+<script>window.CONFIG = __CONFIG__;</script>
+<script src="/static/i18n.js"></script>
+<script src="/static/site.js" defer></script>
+<style>
+  .ins-hero { background: var(--v-mist); padding: 64px 0 48px; }
+  .ins-hero h1 { font-size: 40px; margin: 12px 0 10px; }
+  .stack { display: grid; gap: 20px; }
+</style>
+</head>
+<body>
+<main>
+  <section class="ins-hero"><div class="wrap"><div class="eyebrow">Management view</div><h1>What people ask, and where we fall short.</h1><p class="lead">Every conversation across the front door, the brand pages and the concierge becomes a signal: demand by brand and audience, the questions our published material cannot answer, and answer quality over time.</p></div></section>
+  <section class="tight">
+    <div class="wrap">
+      <div class="grid three" id="stats"></div>
+      <div class="grid two" style="margin-top:24px;align-items:start">
+        <div class="stack">
+          <div class="panel"><h3>Questions per day, last 14 days</h3><div class="spark" id="spark"></div><div class="small muted" style="display:flex;justify-content:space-between;margin-top:6px"><span id="d0"></span><span id="d13"></span></div></div>
+          <div class="panel"><h3>Content backlog: questions we could not answer</h3><p class="small muted" style="margin-bottom:10px">Grouped by topic. Each cluster is a page, table or document a brand content owner can publish.</p><div id="backlog"></div></div>
+          <div class="panel"><h3>Sold or solved this week</h3><div id="sold"></div></div>
+          <div class="panel"><h3>Answers to review (low groundedness)</h3><div id="lowg"></div></div>
+        </div>
+        <div class="stack">
+          <div class="panel"><h3>Volume by brand</h3><div class="bars" id="byBrand"></div></div>
+          <div class="panel"><h3>Volume by audience</h3><div class="bars" id="byAud"></div></div>
+          <div class="panel"><h3>Top topics</h3><div class="bars" id="topics"></div></div>
+        </div>
+      </div>
+      <div class="panel" style="margin-top:24px"><h3>Latest questions</h3>
+        <div style="overflow-x:auto"><table class="data" id="latest"><thead><tr><th>When</th><th>Where</th><th>Audience</th><th>Question</th><th>Brand</th><th>Sources</th><th>Groundedness</th><th>Helpful</th></tr></thead><tbody></tbody></table></div>
+        <div class="small muted" style="margin-top:10px"><span class="live-dot"></span>live in this session</div>
+      </div>
+    </div>
+  </section>
+</main>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const d = await (await fetch("/api/insights")).json();
+  const h = await (await fetch("/api/handoffs")).json();
+  const pct = d.total ? Math.round(100 * d.answered / d.total) : 0;
+  const fbTotal = d.feedback.good + d.feedback.bad;
+  const chip = label => { const s = Object.values(V.BR).find(b => b.label === label); return `<span class="brandchip" style="background:${s ? s.colour : "#205C40"}">${V.esc(label)}</span>`; };
+  document.getElementById("stats").innerHTML = [
+    ["Questions, 28 days", d.total, "across the front door, brand pages and concierge"],
+    ["Answered from published material", pct + "%", d.unanswered + " unanswered, now in the content backlog"],
+    ["Average groundedness", d.avg_groundedness == null ? "n/a" : d.avg_groundedness.toFixed(1) + " / 5", "scored on each answer against its retrieved passages"],
+    ["Helpful feedback", fbTotal ? Math.round(100 * d.feedback.good / fbTotal) + "%" : "n/a", fbTotal + " ratings"],
+    ["Brands asked about", d.by_brand.length, "of eight brands plus the group"],
+    ["Handoffs prepared", d.handoffs, `<a class="link" href="/quote/handoffs">quote and service handoffs</a>`],
+  ].map(([l, v, s]) => `<div class="stat reveal-up in"><b>${v}</b><span>${l}</span><span class="micro">${s}</span></div>`).join("");
+  const mx = Math.max(1, ...d.daily.map(x => x.n));
+  document.getElementById("spark").innerHTML = d.daily.map((x, i) => `<i style="height:${Math.max(4, 100 * x.n / mx)}%" title="${x.day}: ${x.n}" class="${i === d.daily.length - 1 ? "live" : ""}"></i>`).join("");
+  document.getElementById("d0").textContent = d.daily[0].day; document.getElementById("d13").textContent = d.daily[13].day;
+  const bars = (el, items, colourFn) => { const m = Math.max(1, ...items.map(x => x[1])); el.innerHTML = items.map(([k, n]) => `<div class="r"><span>${V.esc(k)}</span><div class="bar"><i style="width:${100 * n / m}%;${colourFn ? "background:" + colourFn(k) : ""}"></i></div><em>${n}</em></div>`).join(""); };
+  const BC = {}; Object.values(V.BR).forEach(b => { BC[b.label] = b.colour; });
+  bars(document.getElementById("byBrand"), d.by_brand, k => BC[k] || "#205C40");
+  bars(document.getElementById("byAud"), d.by_audience);
+  bars(document.getElementById("topics"), d.topics);
+  document.getElementById("backlog").innerHTML = d.backlog.length ? d.backlog.map(b => `<div class="row-item"><div class="n">${b.n}</div><div><b>${V.esc(b.topic)}</b><div class="small muted">${b.examples.map(V.esc).join(" · ")}</div></div></div>`).join("") : `<div class="small muted">Nothing unanswered.</div>`;
+  const dest = {}; (h.handoffs || []).forEach(x => { dest[x.destination] = (dest[x.destination] || 0) + 1; });
+  const langs = {}; (h.handoffs || []).forEach(x => { const l = (x.payload && x.payload.lang) || "en"; langs[l] = (langs[l] || 0) + 1; });
+  document.getElementById("sold").innerHTML = `<div class="bars">${Object.entries(dest).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([k, n]) => `<div class="r"><span>${V.esc(k)}</span><div class="bar"><i style="width:${100 * n / Math.max(1, ...Object.values(dest))}%"></i></div><em>${n}</em></div>`).join("")}</div>
+    <div class="small muted" style="margin-top:8px">Languages used: ${Object.entries(langs).map(([k, n]) => `${(V.CFG.langs[k] || {}).native || k} (${n})`).join(", ")}</div>`;
+  document.getElementById("lowg").innerHTML = d.low_groundedness.length ? d.low_groundedness.map(r => `<div class="row-item"><div class="n" style="background:#F6EEEA;color:#9A3B24">${r.groundedness.toFixed(1)}</div><div>${V.esc(r.question)}<div style="margin-top:4px">${r.brands.map(chip).join(" ")}</div></div></div>`).join("") : `<div class="small muted">No answers below 3.5 groundedness.</div>`;
+  const ft = ts => { const x = new Date(ts * 1000); return x.toLocaleDateString("en-AU", { day: "numeric", month: "short" }) + " " + x.toLocaleTimeString("en-AU", { hour: "2-digit", minute: "2-digit" }); };
+  document.querySelector("#latest tbody").innerHTML = d.latest.map(r => `<tr><td class="small">${r.live ? '<span class="live-dot"></span>' : ""}${ft(r.ts)}</td><td class="small">${V.esc(r.route)}</td><td class="small">${V.esc(r.audience || "")}</td><td>${V.esc(r.question)}</td><td>${r.brands.map(chip).join(" ")}</td><td>${r.status === "no_context" ? '<span class="tag" style="background:#F6EEEA;color:#9A3B24">unanswered</span>' : r.n_sources}</td><td>${r.groundedness == null ? '<span class="muted small">-</span>' : r.groundedness.toFixed(1)}</td><td>${r.feedback == null ? "" : (r.feedback ? "Yes" : "No")}</td></tr>`).join("");
+});
+</script>
+</body>
+</html>
