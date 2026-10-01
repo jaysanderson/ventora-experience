@@ -118,7 +118,7 @@
         <div class="arch-modal__body">
           ${DIAGRAM}
           <ol class="arch-steps">
-            <li><b>1</b>You type a question into the concierge or the Specify page. It goes straight to Ventora's own server - never to any outside service.</li>
+            <li><b>1</b>You type a question into the concierge or the Specify page, or drop in a photo. It goes straight to Ventora's own server - never to any outside service.</li>
             <li><b>2</b>That server makes a grounded answer call to Ventora's knowledge store, scoped to the brand and document types you're asking about. This is a single call that retrieves the actual passages AND writes the answer from them.</li>
             <li><b>3</b>The prose streams back to your screen as it's generated. The numbered superscript markers you see are placed using the exact passage ARAG recorded as the source for that part of the answer - never guessed. The product cards, follow-up buttons and the numbered source list underneath are all built from the same real passages that call returned - never invented, and never a separate step.</li>
             <li><b>4</b>A second, independent call sends the same question, the answer and the retrieved passages to a trust-scoring service, which grades how well the answer is actually supported by them. That's the plain-language confidence badge you see next to an answer - High or Moderate confidence, never a raw score.</li>
@@ -442,10 +442,18 @@
         else {
           prose.innerHTML = md(d.marked_answer || d.answer);
           blocks.innerHTML = productCards(d.products) + actionButtons(d.actions) + followupChips(d.followups) +
-            `<div class="trust-line">${basisDrawer(d.sources, t)}</div>`;
+            `<div class="trust-line"><span class="confidence-slot"></span>${basisDrawer(d.sources, t)}</div>`;
           (d.products || []).forEach(pr => { if (!state.recent.find(x => x.family === pr.family)) state.recent.unshift(pr); });
           renderRail();
           state.history.push({ author: "user", text: t.photoPrompt }, { author: "assistant", text: d.answer });
+          // B34: same async confidence badge as the concierge's text answers and /specify -
+          // the photo-identify reply is a third grounded-answer surface and was carrying none.
+          if (d.sources && d.sources.length) {
+            remi({ query: t.photoPrompt, answer: d.answer, interaction_id: d.interaction_id }).then(r => {
+              const slot = blocks.querySelector(".confidence-slot");
+              if (slot) slot.outerHTML = confidenceBadge(r);
+            });
+          }
         }
       } catch (e) { prose.innerHTML = `<div class="notice">${esc(t.noAnswer)}</div>`; }
       state.busy = false; scrollEnd();

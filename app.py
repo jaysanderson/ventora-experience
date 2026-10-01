@@ -410,11 +410,14 @@ async def api_identify(req: Request):
     # B33: same inline-marker treatment as /api/answer - the photo-identify reply is a
     # second surface rendering model prose with citations, not just the text ask.
     marked_answer = kb.inject_citation_markers(answer, merged, numbers) if cited else answer
-    store.log_interaction(con, route="/identify", audience="homeowner", question=f"[photo] {query}", answer=answer,
-                          status=status, n_sources=len(cited), brands=sorted({c["brand"] for c in cited}), topic="spare parts")
+    iid = store.log_interaction(con, route="/identify", audience="homeowner", question=f"[photo] {query}", answer=answer,
+                                status=status, n_sources=len(cited), brands=sorted({c["brand"] for c in cited}), topic="spare parts")
     # `answer` (clean) is what feeds state.history for future conversation turns; `marked_answer`
     # (carries [[n]] tokens) is purely for the client to render - see the note in /api/answer.
+    # `interaction_id` lets the client's own /api/remi call (B34) persist its score against
+    # this row, same as the text-ask and concierge surfaces.
     return {"enabled": True, "answer": answer, "marked_answer": marked_answer, "status": status, "sources": cited, "seen": desc,
+            "interaction_id": iid,
             "products": cz.product_cards(answer, cited, None, lang), "actions": cz.actions(answer, cited, "service", None, lang),
             "followups": cz.followups(answer, cited, "general", lang)}
 
