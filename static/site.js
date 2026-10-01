@@ -331,16 +331,20 @@
       const g = state.goal === "quote" ? t.quoteIntro : t.greeting[state.mode] || t.greeting.building;
       addCz(`<p>${esc(text || g)}</p>`);
     }
+    /* The photo-mode intro (three sample photos + upload tile). Shared by every entry
+       that puts the concierge in photo mode - the rail goal card, the ?concierge=photo
+       deep link and any data-goal="photo" opener - so it renders on every viewport,
+       including 390px where the goals rail is hidden and the card is unreachable. */
+    function photoIntro() {
+      const t = T();
+      const samples = [["breezway", "Breezway louvre window"], ["corinthian", "Corinthian entrance door"], ["stegbar", "Stegbar window"]];
+      const d = addCz(`<p>${esc(t.goals.photo[1])}</p><div class="samples">${samples.map(([k, lbl]) => `<button class="sample" data-sample="/static/samples/${k}.jpg"><img src="/static/samples/${k}.jpg" alt="${esc(lbl)}"><span>${esc(lbl)}</span></button>`).join("")}<button class="sample upload" data-upload><span>${esc(t.photo)}</span></button></div>`);
+      d.querySelectorAll("[data-sample]").forEach(b => b.onclick = async () => { const r = await fetch(b.dataset.sample); const blob = await r.blob(); sendPhoto(new File([blob], b.dataset.sample.split("/").pop(), { type: blob.type || "image/jpeg" })); });
+      d.querySelector("[data-upload]").onclick = () => el.querySelector("input[type=file]").click();
+    }
     function goal(g) {
       state.goal = g; renderChrome();
-      if (g === "photo") {
-        const t = T();
-        const samples = [["breezway", "Breezway louvre window"], ["corinthian", "Corinthian entrance door"], ["stegbar", "Stegbar window"]];
-        const d = addCz(`<p>${esc(t.goals.photo[1])}</p><div class="samples">${samples.map(([k, lbl]) => `<button class="sample" data-sample="/static/samples/${k}.jpg"><img src="/static/samples/${k}.jpg" alt="${esc(lbl)}"><span>${esc(lbl)}</span></button>`).join("")}<button class="sample upload" data-upload><span>${esc(t.photo)}</span></button></div>`);
-        d.querySelectorAll("[data-sample]").forEach(b => b.onclick = async () => { const r = await fetch(b.dataset.sample); const blob = await r.blob(); sendPhoto(new File([blob], b.dataset.sample.split("/").pop(), { type: blob.type || "image/jpeg" })); });
-        d.querySelector("[data-upload]").onclick = () => el.querySelector("input[type=file]").click();
-        return;
-      }
+      if (g === "photo") { photoIntro(); return; }
       if (g === "quote") { greet(); return; }
       const t = T();
       const seeds = { product: t.greeting.building, problem: t.greeting.service, document: t.greeting.specifying };
@@ -466,9 +470,14 @@
       if (opts.goal) state.goal = opts.goal;
       renderChrome();
       scrim.classList.add("open"); el.classList.add("open"); document.body.style.overflow = "hidden";
-      if (!thread().children.length) greet();
-      if (opts.goal === "photo") setTimeout(() => el.querySelector("input[type=file]").click(), 200);
-      if (opts.text) send(opts.text); else setTimeout(() => el.querySelector("textarea").focus(), 240);
+      // Photo mode gets its intro (samples + upload) in the thread on every viewport -
+      // the old behaviour (a programmatic file-input click) is gesture-blocked by the
+      // browser and left the deep link showing only the generic greeting. The camera
+      // buttons in the header and composer are unchanged.
+      if (opts.goal === "photo") { if (!thread().querySelector(".samples")) photoIntro(); }
+      else if (!thread().children.length) greet();
+      if (opts.text) send(opts.text);
+      else if (opts.goal !== "photo") setTimeout(() => el.querySelector("textarea").focus(), 240);
     }
     function close() { if (!el) return; scrim.classList.remove("open"); el.classList.remove("open"); document.body.style.overflow = ""; }
     return { open, close, send, setLang, state };
