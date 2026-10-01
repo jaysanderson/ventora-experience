@@ -26,6 +26,15 @@
       para.push(l.trim());
     }
     flushP(); closeList();
+    // B33: [[n]] tokens are injected server-side (kb.inject_citation_markers), at the
+    // real passage ARAG grounded, never guessed by the client. esc() above leaves the
+    // plain-text token untouched (no markdown syntax to collide with), so this is a
+    // single safe pass over the finished HTML. Rendered as a clickable superscript that
+    // resolves to its numbered source in the "Based on N documents" drawer (B23 adapted:
+    // these sources are real external pages/PDFs this app doesn't control the DOM of, so
+    // "resolves to" means reveal-and-highlight the exact source row, which itself links
+    // to the real document, rather than an in-page highlight we cannot honestly offer).
+    html = html.replace(/\[\[(\d+)\]\]/g, (_, n) => `<sup class="cite"><a href="#" data-cite="${n}" aria-label="Source ${n}">${n}</a></sup>`);
     return html;
   }
 
@@ -111,10 +120,10 @@
           <ol class="arch-steps">
             <li><b>1</b>You type a question into the concierge or the Specify page. It goes straight to Ventora's own server - never to any outside service.</li>
             <li><b>2</b>That server makes a grounded answer call to Ventora's knowledge store, scoped to the brand and document types you're asking about. This is a single call that retrieves the actual passages AND writes the answer from them.</li>
-            <li><b>3</b>The prose streams back to your screen as it's generated. The product cards, follow-up buttons and the citation list underneath are all built from the real passages that call returned - never invented, and never a separate step.</li>
-            <li><b>4</b>A second, independent call sends the same question, the answer and the retrieved passages to a trust-scoring service, which grades how well the answer is actually supported by them. That's the confidence meter you see under an answer.</li>
+            <li><b>3</b>The prose streams back to your screen as it's generated. The numbered superscript markers you see are placed using the exact passage ARAG recorded as the source for that part of the answer - never guessed. The product cards, follow-up buttons and the numbered source list underneath are all built from the same real passages that call returned - never invented, and never a separate step.</li>
+            <li><b>4</b>A second, independent call sends the same question, the answer and the retrieved passages to a trust-scoring service, which grades how well the answer is actually supported by them. That's the plain-language confidence badge you see next to an answer - High or Moderate confidence, never a raw score.</li>
           </ol>
-          <p class="arch-note">If the trust check can't be scored for any reason, the confidence meter is hidden rather than shown with a guess - nothing on this page is ever faked or pre-written. Every citation you see links to the real source document.</p>
+          <p class="arch-note">If the trust check can't be scored for any reason, the confidence badge is left off rather than shown with a guess - nothing on this page is ever faked or pre-written. Every numbered marker and every source link resolves to a real document.</p>
         </div>
       </div>`;
     function mount() {
@@ -179,7 +188,37 @@
     if (!sources || !sources.length) return "";
     const n = sources.length;
     return `<div class="basis"><button data-basis>${esc(n === 1 ? T.basisOne : fmt(T.basis, { n }))}</button>
-      <div class="basis-list">${sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}<span>${esc(s.brand)}${s.issued ? " · " + esc(s.issued) : ""}</span></a>`).join("")}</div></div>`;
+      <div class="basis-list">${sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener" data-src="${s.n}"><b class="n">${s.n}</b><span class="t">${esc(s.title)}<span>${esc(s.brand)}${s.issued ? " · " + esc(s.issued) : ""}</span></span></a>`).join("")}</div></div>`;
+  }
+  /* ---------- B34/B42 qualitative confidence badge ----------
+     Derived from REMi, weighting groundedness primary (CLAUDE.md, Thornfield
+     correction) - never a raw numeral by default. High confidence may show the
+     real sub-scores; below threshold every numeral drops and the badge names an
+     action instead, in a different colour (B42). Hidden entirely only when REMi
+     genuinely could not be scored - never shown with a guess. */
+  function confidenceBadge(scores) {
+    if (!scores || !scores.available || scores.groundedness == null) return "";
+    const g = scores.groundedness, ar = scores.answer_relevance;
+    if (g >= 4) {
+      const sub = ar != null ? `grounded ${g.toFixed(1)}/5 · relevant ${ar.toFixed(1)}/5` : `grounded ${g.toFixed(1)}/5`;
+      return `<span class="confidence high">High confidence <span class="sub">${esc(sub)}</span></span>`;
+    }
+    if (g >= 2.5) return `<span class="confidence moderate">Moderate confidence</span>`;
+    return `<span class="confidence low">Worth checking the sources below</span>`;
+  }
+  /* A citation marker "resolves to" its source by revealing the basis drawer
+     (opening it if collapsed) and briefly highlighting that row - see the note
+     in md() above on why this, rather than an in-document highlight, is the
+     honest version of B23 for sources this app doesn't control the DOM of. */
+  function scrollToSource(scope, n) {
+    if (!scope) return;
+    const row = scope.querySelector(`[data-src="${n}"]`);
+    if (!row) return;
+    const list = row.closest(".basis-list");
+    if (list && !list.classList.contains("open")) list.classList.add("open");
+    row.scrollIntoView({ behavior: "smooth", block: "center" });
+    row.classList.add("flash");
+    setTimeout(() => row.classList.remove("flash"), 1400);
   }
 
   /* ---------- the Concierge ---------- */
@@ -233,6 +272,7 @@
         const fl = e.target.closest("[data-flow]"); if (fl) return flow(fl.dataset.flow, fl.dataset.brand);
         const b = e.target.closest("[data-basis]"); if (b) return b.nextElementSibling.classList.toggle("open");
         const h = e.target.closest("[data-handoff]"); if (h) return handoff();
+        const cm = e.target.closest("[data-cite]"); if (cm) { e.preventDefault(); return scrollToSource(cm.closest(".msg.bot"), cm.dataset.cite); }
       });
       renderChrome();
     }
@@ -338,9 +378,22 @@
             blocks.innerHTML = actionButtons(acts) + (state.brand ? `<div class="actions"><button class="btn secondary" data-unlock>${esc(t.askVentora)}</button></div>` : "");
             const u = blocks.querySelector("[data-unlock]"); if (u) u.onclick = () => { state.brand = null; renderChrome(); send(text); };
           } else {
-            blocks.innerHTML = productCards(p.products) + actionButtons(p.actions) + followupChips(p.followups) + basisDrawer(p.sources, t);
+            // Final render swaps in the marker-carrying text (B33) - the clean p.answer
+            // stays in state.history/intake-extraction so no [[n]] token ever reaches a
+            // future turn's chat_history or the quote-intake extractor.
+            prose.innerHTML = md(p.marked_answer || p.answer); scrollEnd();
+            blocks.innerHTML = productCards(p.products) + actionButtons(p.actions) + followupChips(p.followups) +
+              `<div class="trust-line"><span class="confidence-slot"></span>${basisDrawer(p.sources, t)}</div>`;
             (p.products || []).forEach(pr => { if (!state.recent.find(r => r.family === pr.family)) state.recent.unshift(pr); });
             renderRail();
+            // B34: a confidence badge on every grounded concierge answer, not only /specify -
+            // fetched async so REMi latency never holds up the answer itself.
+            if (p.sources && p.sources.length) {
+              remi({ query: text, answer: p.answer, brands: state.brand ? [state.brand] : [], interaction_id: p.interaction_id }).then(r => {
+                const slot = blocks.querySelector(".confidence-slot");
+                if (slot) slot.outerHTML = confidenceBadge(r);
+              });
+            }
           }
           if (state.goal === "quote") { if (p.lead && !state.lead) { state.lead = p.lead; renderRail(); } updateLead(p.answer); }
         },
@@ -387,8 +440,9 @@
         if (!d.enabled) { prose.innerHTML = `<div class="notice">${esc(t.noAnswer)}</div>`; }
         else if (d.status === "no_context" || !d.answer) { prose.innerHTML = `<div class="notice">${esc(t.noAnswer)}</div>`; blocks.innerHTML = actionButtons(d.actions); }
         else {
-          prose.innerHTML = md(d.answer);
-          blocks.innerHTML = productCards(d.products) + actionButtons(d.actions) + followupChips(d.followups) + basisDrawer(d.sources, t);
+          prose.innerHTML = md(d.marked_answer || d.answer);
+          blocks.innerHTML = productCards(d.products) + actionButtons(d.actions) + followupChips(d.followups) +
+            `<div class="trust-line">${basisDrawer(d.sources, t)}</div>`;
           (d.products || []).forEach(pr => { if (!state.recent.find(x => x.family === pr.family)) state.recent.unshift(pr); });
           renderRail();
           state.history.push({ author: "user", text: t.photoPrompt }, { author: "assistant", text: d.answer });
@@ -412,6 +466,7 @@
     return { open, close, send, setLang, state };
   })();
 
-  window.V = { CFG, BR, ORDER, esc, fmt, md, shell, ask, remi, productCards, actionButtons, followupChips, basisDrawer, labelOf, Concierge };
+  window.V = { CFG, BR, ORDER, esc, fmt, md, shell, ask, remi, productCards, actionButtons, followupChips, basisDrawer,
+    confidenceBadge, scrollToSource, labelOf, Concierge };
   document.addEventListener("DOMContentLoaded", shell);
 })();

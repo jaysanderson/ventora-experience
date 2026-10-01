@@ -33,7 +33,7 @@
 
   <section class="tight">
     <div class="wrap work">
-      <div>
+      <div id="qa-pane">
         <form class="ask-field" id="ask" onsubmit="return false">
           <input id="q" type="text" placeholder="e.g. Coastal NSW, BAL-29, 7-star target: which louvres and sliding doors qualify?" autocomplete="off">
           <button class="btn primary sm" type="submit">Ask</button>
@@ -54,7 +54,7 @@
         <div class="panel">
           <h3>How this works</h3>
           <p class="small" style="margin-bottom:14px">Every statement is drawn from the documents listed under the answer. Final compliance is confirmed by your certifier or energy assessor.</p>
-          <div class="meter" id="meter" hidden><span>Answer confidence</span><div class="bar"><i></i></div><b id="meter-v"></b></div>
+          <div id="confidence-wrap" hidden><span class="small muted" style="display:block;margin-bottom:8px">Answer confidence</span><div id="confidence-badge"></div></div>
         </div>
         <div class="panel" style="margin-top:16px">
           <h3>Design Assist</h3>
@@ -77,12 +77,16 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("suggest").innerHTML = SUG.map(s => `<button class="btn chip" data-s="${V.esc(s)}">${V.esc(s)}</button>`).join("");
   document.querySelectorAll("[data-s]").forEach(b => b.onclick = () => run(b.dataset.s));
   document.getElementById("ask").addEventListener("submit", () => run(document.getElementById("q").value));
+  document.getElementById("qa-pane").addEventListener("click", e => {
+    const cm = e.target.closest("[data-cite]"); if (cm) { e.preventDefault(); V.scrollToSource(document.getElementById("qa-pane"), cm.dataset.cite); }
+  });
 
   async function run(q) {
     q = (q || "").trim(); if (!q) return;
     document.getElementById("q").value = q;
-    const art = document.getElementById("article"), docs = document.getElementById("docs"), spec = document.getElementById("specialist"), meter = document.getElementById("meter");
-    art.innerHTML = `<h3>${V.esc(q)}</h3><div class="prose"><div class="typing"><i></i><i></i><i></i></div></div>`; docs.innerHTML = ""; spec.innerHTML = ""; meter.hidden = true;
+    const art = document.getElementById("article"), docs = document.getElementById("docs"), spec = document.getElementById("specialist");
+    const confWrap = document.getElementById("confidence-wrap"), confBadge = document.getElementById("confidence-badge");
+    art.innerHTML = `<h3>${V.esc(q)}</h3><div class="prose"><div class="typing"><i></i><i></i><i></i></div></div>`; docs.innerHTML = ""; spec.innerHTML = ""; confWrap.hidden = true; confBadge.innerHTML = "";
     const prose = art.querySelector(".prose");
     const params = { query: q, mode: "specify", brands: [...sel.brands], doctypes: [...sel.docs], route: "/specify", audience: "specifier" };
     await V.ask(params, {
@@ -90,16 +94,20 @@ document.addEventListener("DOMContentLoaded", () => {
       onError: () => { prose.innerHTML = `<div class="notice">That isn't covered in the published material yet. A specialist can help directly.</div>`; },
       onDone: async p => {
         if (p.status === "no_context") { prose.innerHTML = `<div class="notice">That isn't covered in Ventora's published material yet. A specialist can help directly.</div>`; spec.innerHTML = V.actionButtons(p.actions); return; }
+        // Final render swaps in the marker-carrying text (B33); p.answer (clean) is what's
+        // sent to REMi and kept out of any future chat_history - see /api/answer's comment.
+        prose.innerHTML = V.md(p.marked_answer || p.answer);
         if (p.sources && p.sources.length) {
           docs.innerHTML = `<div class="eyebrow" style="margin-bottom:14px">Resources</div><div class="doc-grid">` + p.sources.map(s => `
-            <a class="doc" href="${V.esc(s.url)}" target="_blank" rel="noopener"><div class="ic ${s.kind === "pdf" ? "pdf" : ""}">${s.kind === "pdf" ? "PDF" : "WEB"}</div>
-              <div><b>${V.esc(s.title)}</b><small>${V.esc(s.doctype)}${s.issued ? " · issued " + V.esc(s.issued) : ""}</small><img class="mark" src="/static/brand/${V.esc(s.slug === "ventora" ? "ventora" : s.slug)}.png" alt="${V.esc(s.brand)}"><span class="tertiary">${s.kind === "pdf" ? "Download" : "Open page"}</span></div></a>`).join("") + `</div>`;
+            <a class="doc" href="${V.esc(s.url)}" target="_blank" rel="noopener" data-src="${s.n}"><div class="ic ${s.kind === "pdf" ? "pdf" : ""}">${s.kind === "pdf" ? "PDF" : "WEB"}</div>
+              <div><b><span class="n">${s.n}</span>${V.esc(s.title)}</b><small>${V.esc(s.doctype)}${s.issued ? " · issued " + V.esc(s.issued) : ""}</small><img class="mark" src="/static/brand/${V.esc(s.slug === "ventora" ? "ventora" : s.slug)}.png" alt="${V.esc(s.brand)}"><span class="tertiary">${s.kind === "pdf" ? "Download" : "Open page"}</span></div></a>`).join("") + `</div>`;
         }
         spec.innerHTML = `<div class="eyebrow" style="margin-bottom:12px">Next step</div>` + V.actionButtons(p.actions) + V.followupChips(p.followups);
         spec.querySelectorAll("[data-followup]").forEach(b => b.onclick = () => run(b.dataset.followup));
         spec.querySelectorAll("[data-flow]").forEach(b => b.onclick = () => V.Concierge.open({ mode: "specifying", goal: b.dataset.flow === "#quote" ? "quote" : null, text: b.dataset.flow === "#design-assist" ? "I'd like to book Design Assist for this project." : "I'd like a quote for this." }));
         const r = await V.remi({ query: q, answer: p.answer, brands: [...sel.brands], doctypes: [...sel.docs], interaction_id: p.interaction_id });
-        if (r && r.available && r.groundedness != null) { meter.hidden = false; meter.querySelector("i").style.width = (r.groundedness / 5 * 100) + "%"; document.getElementById("meter-v").textContent = (Math.round(r.groundedness * 10) / 10).toFixed(1) + " / 5"; }
+        const badge = V.confidenceBadge(r);
+        if (badge) { confWrap.hidden = false; confBadge.innerHTML = badge; }
       }
     });
   }

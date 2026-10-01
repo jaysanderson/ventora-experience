@@ -406,3 +406,83 @@ CITE_KEY_RE = re.compile(r"^([0-9a-f]{32})/")
 def rid_from_cite(key: str):
     m = CITE_KEY_RE.match(key or "")
     return m.group(1) if m else None
+
+
+# --- Inline citation markers (B33) ---------------------------------------
+# ARAG's own `/ask` citations map is a real per-character grounding record
+# (which exact span of the generated answer each resource supports) - this
+# is the genuine mechanism, stronger than a title-text-match heuristic, so
+# markers are placed from it directly rather than guessed. Ported from the
+# proven implementation in apps/llm-economics/arag.py (build_source_list_
+# and_markers), which itself documents the two traps that bit it live:
+# offsets landing mid-word, and stacked markers gluing onto the next word.
+def merge_citation_ranges(citations):
+    """citations: {paragraph_id: [[start, end], ...]} (paragraph_id is
+    "<rid>/<field>/..."). Returns ranges merged within the same resource,
+    sorted by position, each {"start", "end", "rid"}."""
+    ranges = []
+    for key, spans in (citations or {}).items():
+        rid = rid_from_cite(key)
+        if not rid:
+            continue
+        for s in spans or []:
+            if isinstance(s, (list, tuple)) and len(s) == 2:
+                ranges.append((s[0], s[1], rid))
+    ranges.sort(key=lambda r: r[0])
+    merged = []
+    for s, e, rid in ranges:
+        if merged and merged[-1]["rid"] == rid and s <= merged[-1]["end"] + 2:
+            merged[-1]["end"] = max(merged[-1]["end"], e)
+        else:
+            merged.append({"start": s, "end": e, "rid": rid})
+    return merged
+
+
+def citation_order(merged, known_rids):
+    """Source numbers assigned by order of first appearance (character
+    position), restricted to resources we actually have metadata for."""
+    order = []
+    for m in merged:
+        if m["rid"] in known_rids and m["rid"] not in order:
+            order.append(m["rid"])
+    return order
+
+
+def inject_citation_markers(answer, merged, numbers):
+    """Insert `[[n]]` tokens at the end of each cited range, snapped to a
+    real word boundary - ARAG's citation char-offsets do not reliably land
+    on one (a real case split "may" into "m[1]ay"). Markers that snap to the
+    same position are grouped into a single insertion so stacked citations
+    share one space before and after them, never a bare glue onto the next
+    word. The client renders `[[n]]` as a superscript link to source n."""
+    if not answer or not merged:
+        return answer
+    n = len(answer)
+
+    def snap(pos):
+        pos = max(0, min(pos, n))
+        if pos in (0, n):
+            return pos
+        if answer[pos - 1].isspace() or answer[pos].isspace():
+            return pos
+        i = pos
+        while i < n and not answer[i].isspace():
+            i += 1
+        return i
+
+    groups = {}
+    for m in merged:
+        num = numbers.get(m["rid"])
+        if not num:
+            continue
+        pos = snap(m["end"])
+        groups.setdefault(pos, set()).add(num)
+    if not groups:
+        return answer
+    out = answer
+    for pos in sorted(groups.keys(), reverse=True):
+        token = "".join(f"[[{num}]]" for num in sorted(groups[pos]))
+        prefix = "" if (pos == 0 or out[pos - 1].isspace()) else " "
+        suffix = "" if (pos == len(out) or out[pos].isspace()) else " "
+        out = out[:pos] + prefix + token + suffix + out[pos:]
+    return out

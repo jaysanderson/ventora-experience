@@ -162,7 +162,7 @@ async def api_answer(req: Request):
     audience = p.get("audience") or ""
 
     def gen():
-        answer, status, sources, cite_map, order = [], "", {}, {}, []
+        answer, status, sources, raw_citations = [], "", {}, {}
         for t, item in kb.stream_ask(body):
             if t == "error":
                 yield json.dumps({"type": "error"}) + "\n"
@@ -176,18 +176,20 @@ async def api_answer(req: Request):
                     sources[rid] = kb.resource_meta(res)
             elif t == "citations":
                 for key, spans in (item.get("citations") or {}).items():
-                    rid = kb.rid_from_cite(key)
-                    if rid and rid in sources:
-                        if rid not in order:
-                            order.append(rid)
-                        cite_map.setdefault(rid, [])
-                        for s in spans or []:
-                            if isinstance(s, list) and len(s) == 2:
-                                cite_map[rid].append(s)
+                    bucket = raw_citations.setdefault(key, [])
+                    for s in spans or []:
+                        if isinstance(s, (list, tuple)) and len(s) == 2 and list(s) not in bucket:
+                            bucket.append(list(s))
             elif t == "status":
                 status = item.get("status") or ""
         full = "".join(answer)
-        cited = [dict(sources[r], n=i + 1) for i, r in enumerate(order)]
+        # B33: real per-character grounding data from ARAG's own citations map (never a
+        # title-text heuristic) - merge into ranges, number by first appearance, inject
+        # [[n]] markers into the prose the client renders. See kb.py for the mechanism.
+        merged = kb.merge_citation_ranges(raw_citations)
+        order = kb.citation_order(merged, sources)
+        numbers = {rid: i + 1 for i, rid in enumerate(order)}
+        cited = [dict(sources[r], n=numbers[r]) for r in order]
         if status == "no_context" or (not cited and re.search(r"not enough data", full, re.I)):
             status = "no_context"
         if mode == "quote" and status == "no_context":
@@ -196,6 +198,14 @@ async def api_answer(req: Request):
             full = concierge_followup(chat_history + [{"author": "user", "text": query}], lang)
             status = "intake"
             yield json.dumps({"type": "answer", "text": full, "replace": True}) + "\n"
+        # Marked text is carried as its OWN field on the final "sources" event below, never
+        # pushed back through the streaming "answer" channel - that channel's accumulated
+        # text becomes `chat_history` on the next turn and feeds the quote-intake extractor,
+        # so a `[[n]]` token leaking into it would corrupt what the model (and the extractor)
+        # reads as its own prior turn. `full` (unmarked) stays the single source of truth for
+        # history, intake and REMi; `marked_answer` exists purely for the client to render.
+        marked_answer = (kb.inject_citation_markers(full, merged, numbers)
+                         if status not in ("no_context", "error", "intake") and cited else full)
         iid = store.log_interaction(con, route=route, audience=audience, brand_scope=brand_scope or "", question=query,
                                     answer=full, status=status or ("success" if full else "error"),
                                     n_sources=len(cited), brands=sorted({c["brand"] for c in cited}) or ([kb.BRANDS[b]["label"] for b in brands]),
@@ -212,7 +222,8 @@ async def api_answer(req: Request):
         if mode == "quote" and lead:
             lead["destination"] = route_destination(lead.get("kind", "quote"), lead.get("brand_interest", ""), lead.get("state", ""))
             blocks["lead"] = lead
-        yield json.dumps({"type": "sources", "sources": cited, "status": status, "interaction_id": iid, **blocks}) + "\n"
+        yield json.dumps({"type": "sources", "sources": cited, "status": status, "interaction_id": iid,
+                         "marked_answer": marked_answer, **blocks}) + "\n"
         yield json.dumps({"type": "done"}) + "\n"
 
     return StreamingResponse(gen(), media_type="application/x-ndjson")
@@ -389,17 +400,21 @@ async def api_identify(req: Request):
     if code != 200:
         return {"enabled": False, "reason": f"Photo search returned HTTP {code} on this environment."}
     sources = {rid: kb.resource_meta(r) for rid, r in ((d.get("retrieval_results") or {}).get("resources") or {}).items()}
-    order = []
-    for key in (d.get("citations") or {}):
-        rid = kb.rid_from_cite(key)
-        if rid in sources and rid not in order:
-            order.append(rid)
-    cited = [dict(sources[r], n=i + 1) for i, r in enumerate(order)]
+    citations = d.get("citations") or {}
+    merged = kb.merge_citation_ranges(citations)
+    order = kb.citation_order(merged, sources)
+    numbers = {rid: i + 1 for i, rid in enumerate(order)}
+    cited = [dict(sources[r], n=numbers[r]) for r in order]
     status = d.get("status") or ""
     answer = d.get("answer") or ""
+    # B33: same inline-marker treatment as /api/answer - the photo-identify reply is a
+    # second surface rendering model prose with citations, not just the text ask.
+    marked_answer = kb.inject_citation_markers(answer, merged, numbers) if cited else answer
     store.log_interaction(con, route="/identify", audience="homeowner", question=f"[photo] {query}", answer=answer,
                           status=status, n_sources=len(cited), brands=sorted({c["brand"] for c in cited}), topic="spare parts")
-    return {"enabled": True, "answer": answer, "status": status, "sources": cited, "seen": desc,
+    # `answer` (clean) is what feeds state.history for future conversation turns; `marked_answer`
+    # (carries [[n]] tokens) is purely for the client to render - see the note in /api/answer.
+    return {"enabled": True, "answer": answer, "marked_answer": marked_answer, "status": status, "sources": cited, "seen": desc,
             "products": cz.product_cards(answer, cited, None, lang), "actions": cz.actions(answer, cited, "service", None, lang),
             "followups": cz.followups(answer, cited, "general", lang)}
 
